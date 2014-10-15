@@ -1,0 +1,445 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BC5ACFBC-4E19-40EC-9223-0E920527008C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PicesCommander</RootNamespace>
+    <AssemblyName>PicesCommander</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>65428C166C89F2FC24619BCA086FABBC487BC2EA</ManifestCertificateThumbprint>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>false</SignManifests>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>PicesCommander_TemporaryKey.pfx</AssemblyOriginatorKeyFile>
+    <PublishUrl>http://figment.cse.usf.edu/~kkramer/sipper/Software/Pices/SetUp/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>2.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'EmbeddedDebug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\EmbeddedDebug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'EmbeddedRelease|AnyCPU' ">
+    <OutputPath>bin\EmbeddedRelease\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AssignSelectedImagesToGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssignSelectedImagesToGroup.Designer.cs">
+      <DependentUpon>AssignSelectedImagesToGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChartDistribution.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChartDistribution.Designer.cs">
+      <DependentUpon>ChartDistribution.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClassificationStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClassificationStatus.Designer.cs">
+      <DependentUpon>ClassificationStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClassifierProcess.cs" />
+    <Compile Include="ClassMaintenance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClassMaintenance.Designer.cs">
+      <DependentUpon>ClassMaintenance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClassStat.cs" />
+    <Compile Include="ClassDepthProfileChart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClassDepthProfileChart.Designer.cs">
+      <DependentUpon>ClassDepthProfileChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChartGPS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChartGPS.Designer.cs">
+      <DependentUpon>ChartGPS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChartHorizontalProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChartHorizontalProfile.Designer.cs">
+      <DependentUpon>ChartHorizontalProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChartAbundanceByDeployment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChartAbundanceByDeployment.Designer.cs">
+      <DependentUpon>ChartAbundanceByDeployment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChartAbundancePredictedAndValidated.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChartAbundancePredictedAndValidated.Designer.cs">
+      <DependentUpon>ChartAbundancePredictedAndValidated.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InstrumentStatsByDepth.cs" />
+    <Compile Include="SaveActiveTrainingModelFeatureData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaveActiveTrainingModelFeatureData.Designer.cs">
+      <DependentUpon>SaveActiveTrainingModelFeatureData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SavePlanktonData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SavePlanktonData.Designer.cs">
+      <DependentUpon>SavePlanktonData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PredictionResult.cs" />
+    <Compile Include="SipperInstrumentDataExtraction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SipperInstrumentDataExtraction.Designer.cs">
+      <DependentUpon>SipperInstrumentDataExtraction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaveFeatureData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaveFeatureData.Designer.cs">
+      <DependentUpon>SaveFeatureData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DepthPlotDisplay.cs" />
+    <Compile Include="InstrumentDataByDeploymentProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InstrumentDataByDeploymentProfile.Designer.cs">
+      <DependentUpon>InstrumentDataByDeploymentProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReconcileImagesToDataBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReconcileImagesToDataBase.Designer.cs">
+      <DependentUpon>ReconcileImagesToDataBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaveImagesToDisk2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaveImagesToDisk2.Designer.cs">
+      <DependentUpon>SaveImagesToDisk2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlanktonDepthStatisticsLoader.cs" />
+    <Compile Include="ImportValidatedClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportValidatedClass.Designer.cs">
+      <DependentUpon>ImportValidatedClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateFeatureSelectionDataSets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateFeatureSelectionDataSets.Designer.cs">
+      <DependentUpon>CreateFeatureSelectionDataSets.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Harvester.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Harvester.Designer.cs">
+      <DependentUpon>Harvester.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImportGroupAssignments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportGroupAssignments.Designer.cs">
+      <DependentUpon>ImportGroupAssignments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PicesCommander.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PicesCommander.Designer.cs">
+      <DependentUpon>PicesCommander.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlanktonImageLoader.cs" />
+    <Compile Include="PlanktonClassStatisticsLoader.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AssignSelectedImagesToGroup.resx">
+      <DependentUpon>AssignSelectedImagesToGroup.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChartDistribution.resx">
+      <DependentUpon>ChartDistribution.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClassificationStatus.resx">
+      <DependentUpon>ClassificationStatus.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClassMaintenance.resx">
+      <DependentUpon>ClassMaintenance.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClassDepthProfileChart.resx">
+      <DependentUpon>ClassDepthProfileChart.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChartGPS.resx">
+      <DependentUpon>ChartGPS.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChartHorizontalProfile.resx">
+      <DependentUpon>ChartHorizontalProfile.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChartAbundanceByDeployment.resx">
+      <DependentUpon>ChartAbundanceByDeployment.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChartAbundancePredictedAndValidated.resx">
+      <DependentUpon>ChartAbundancePredictedAndValidated.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaveActiveTrainingModelFeatureData.resx">
+      <DependentUpon>SaveActiveTrainingModelFeatureData.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SavePlanktonData.resx">
+      <DependentUpon>SavePlanktonData.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SipperInstrumentDataExtraction.resx">
+      <DependentUpon>SipperInstrumentDataExtraction.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaveFeatureData.resx">
+      <DependentUpon>SaveFeatureData.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InstrumentDataByDeploymentProfile.resx">
+      <DependentUpon>InstrumentDataByDeploymentProfile.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReconcileImagesToDataBase.resx">
+      <DependentUpon>ReconcileImagesToDataBase.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaveImagesToDisk2.resx">
+      <DependentUpon>SaveImagesToDisk2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportValidatedClass.resx">
+      <DependentUpon>ImportValidatedClass.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateFeatureSelectionDataSets.resx">
+      <DependentUpon>CreateFeatureSelectionDataSets.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Harvester.resx">
+      <DependentUpon>Harvester.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportGroupAssignments.resx">
+      <DependentUpon>ImportGroupAssignments.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PicesCommander.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PicesCommander.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaveImagesToDisk.resx">
+      <DependentUpon>SaveImagesToDisk.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpatialAnalysis.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SpatialAnalysis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrainingModelCreateFromDirectory.resx">
+      <DependentUpon>TrainingModelCreateFromDirectory.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerifyImagesDeletion.resx">
+      <DependentUpon>VerifyImagesDeletion.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="PicesCommander_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SaveImagesToDisk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaveImagesToDisk.Designer.cs">
+      <DependentUpon>SaveImagesToDisk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SizeDistribution.cs" />
+    <Compile Include="SpatialAnalysis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpatialAnalysis.Designer.cs">
+      <DependentUpon>SpatialAnalysis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThumbNailImageCell.cs">
+    </Compile>
+    <Compile Include="ThumbNailImageColumn.cs" />
+    <Compile Include="TrainingModelCreateFromDirectory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrainingModelCreateFromDirectory.Designer.cs">
+      <DependentUpon>TrainingModelCreateFromDirectory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VerifyImagesDeletion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VerifyImagesDeletion.Designer.cs">
+      <DependentUpon>VerifyImagesDeletion.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\PicesInterface\PicesInterface.vcproj">
+      <Project>{3D47B9BC-6034-428F-8B4D-96A47C22CE10}</Project>
+      <Name>PicesInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ChartControls\ChartControls.csproj">
+      <Project>{37F16DB1-CF2E-4B70-893C-CD0C173DE7D2}</Project>
+      <Name>ChartControls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SipperFileViewer\SipperFileViewer.csproj">
+      <Project>{B27629BC-30E1-4175-B5E2-54C5912E5C27}</Project>
+      <Name>SipperFileViewer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SipperFile\SipperFile.csproj">
+      <Project>{DBE95A22-7D61-433C-9C7C-6E7A57588B11}</Project>
+      <Name>SipperFile</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="UpArrow.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

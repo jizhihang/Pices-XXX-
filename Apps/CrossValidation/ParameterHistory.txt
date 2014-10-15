@@ -1,0 +1,217 @@
+// -c GrayScaleTests\OneLevel.cfg   -r GrayScaleTests\MergeReport.txt    -L GrayScaleTests\OneLevelLog.txt
+// -c K:\Plankton\Paper\TestImages\VeryFirstBeginning\OneLevel.cfg   -r GrayScaleTests\OneLevel_All_2k_Report.txt    -L K:\Plankton\Paper\TestImages\VeryFirstBeginning\VeryFirstFeature.runLog  -s K:\Plankton\Paper\TestImages\VeryFirstBeginning\VeryFirstFeature.data
+// -c C:\Release_2\Apps\CrossValidation\TestJava.cfg  -r C:\Release_2\Apps\CrossValidation\TestJava_report.txt    -L C:\Release_2\Apps\CrossValidation\TestJava.runLog    -f
+// -c C:\Release_2\Apps\CrossValidation\TestCpp.cfg  -r C:\Release_2\Apps\CrossValidation\TestCpp_report.txt    -L C:\Release_2\Apps\CrossValidation\TestCpp.runLog    -f
+// -c C:\Release_2\Apps\CrossValidation\TestGrayScaleBinaryFullJava.cfg  -r C:\Release_2\Apps\CrossValidation\TestGrayScaleBinaryFullJava_report.txt   -f  -S TestGrayScaleBinaryFull.data
+// -c C:\Release_2\Apps\CrossValidation\TestGrayScaleBinaryFullCpp.cfg   -r C:\Release_2\Apps\CrossValidation\TestGrayScaleBinaryFullCpp_report.txt    -f  -S TestGrayScaleBinaryFullCpp.data
+// -c C:\Release_2\Apps\CrossValidation\TestGrayScaleFullCpp.cfg         -r C:\Release_2\Apps\CrossValidation\TestGrayScaleFullCpp_report.txt          -f  -S TestGrayScaleFullCpp.data
+// -c C:\Release_2\Apps\CrossValidation\TestGrayScaleFullCpp.cfg         -r C:\Release_2\Apps\CrossValidation\TestGrayScale_NewMomentCalcs_report.txt  -S TestGrayScale_NewMomentCalcs.data -L TestGrayScale_NewMomentCalcs.runLog -f
+// -c C:\Release_2\Apps\CrossValidation\GrayScaleCpp.cfg        -r C:\Release_2\Apps\CrossValidation\GrayScaleCpp_report.txt   -L GrayScaleCpp.runLog
+// -c C:\Release_2\Apps\CrossValidation\TestGrayScaleFullCpp.cfg         -r C:\Release_2\Apps\CrossValidation\TestGrayScale_NewMomentCalcs_report.txt  -S TestGrayScale_NewMomentCalcs.data -L TestGrayScale_NewMomentCalcs.runLog -f
+// -c C:\Release_2\Apps\CrossValidation\GrayScaleCpp2.cfg        -r K:\Plankton\StatusReports\2003-May-12\AndrewClassifiedImages_AllFeatures.txt   -L AndrewClassifiedImages_AllFeatures.runLog    -s AndrewClassifiedImages.data
+//  -c C:\Release_2\Apps\CrossValidation\GrayScaleCpp_2.cfg        -r K:\Plankton\StatusReports\2003-May-12\AndrewClassifiedImages_AllFeatures_1000-Images.txt   -L AndrewClassifiedImages_AllFeatures_1000-Images.runLog     -s AndrewClassifiedImages_New.data
+//  -c AndrewGradedImagesSum.cfg   -r K:\Plankton\StatusReports\2003-Jun-09\AndrewGradedImagesSum.txt  -L K:\Plankton\StatusReports\2003-Jun-09\SizingInfo.runLog   -S K:\Plankton\StatusReports\2003-Jun-09\AndrewGradedImagesSum.data -f
+//  -c AndrewGradedImagesSum.cfg   -r K:\Plankton\StatusReports\2003-Jun-16\AndrewGradedImagesSum.txt  -L CrossValidation.runLog    -f
+//  -c GrayScaleCpp.cfg   -r  K:\Plankton\StatusReports\2003-Jun-16\GrayScaleCpp_5Classes_UsingProbability.txt  -L CrossValidation.runLog    -f
+
+// -c Simple.cfg   -r ReportWithOut.txt  -L CrossValidation.runLog    
+//  -c  C:\TrainingApp\DataFiles\TrainingModels\FiveBigOnes.cfg  -f    -r K:\Plankton\StatusReports\2004-01-05\WithHeadFeatures.txt  -L CrossValidation.runLog   -U  K:\Plankton\StatusReports\2004-01-05\TestData.data
+//  -c  "C:\TrainingApp\DataFiles\TrainingModels\SixBigest.cfg"        -r K:\Plankton\StatusReports\2004-01-20\SixBigest_HistDistCent_57-61.txt    -S K:\Plankton\StatusReports\2004-01-20\SixBigest.data
+
+//  -c  "C:\TrainingApp\DataFiles\TrainingModels\BeamSearch.cfg"       -r K:\Plankton\StatusReports\2004-01-27\BeamSearch_OneVsAll.txt    -S K:\Plankton\StatusReports\2004-01-27\Test.data
+
+//  -c  "K:\Plankton\StatusReports\2004-01-27\BinaryTests.cfg"         -r K:\Plankton\StatusReports\2004-01-27\BinaryTests_OneVsOne_NoProb.txt    -U K:\v1\Plankton\TempBeamSearch\TEST_OCT_24.data
+
+//  -c  "K:\Plankton\StatusReports\2004-02-03\SparseFiles.cfg"         -r K:\Plankton\StatusReports\2004-02-03\BinaryTests_OneVsOne_NoProb.txt    -U K:\Plankton\StatusReports\2004-02-03\allnorm.data  -S K:\Plankton\StatusReports\2004-02-03\allnorm_Sorted.data
+//  -c  "K:\Plankton\StatusReports\2004-02-03\SparseFiles2.cfg"        -r K:\Plankton\StatusReports\2004-02-03\BinaryTests_OneVsOne_NoProb.txt    -U K:\Plankton\StatusReports\2004-02-03\allnorm_Sorted_75-267.data  -F sparse
+
+//  -c  "K:\Plankton\StatusReports\2004-02-10\SparseFiles2.cfg"        -r K:\Plankton\StatusReports\2004-02-10\AllNorm_OneVsAll_NoProb.txt    -U K:\Plankton\StatusReports\2004-02-10\allnorm_Sorted.data
+
+//  -c  "K:\v1\Plankton\TempBeamSearch\2004_March_02\BeamSearch.cfg"   -r K:\Plankton\StatusReports\2004-03-02\BestOldFeatures_OneVsOne_NoProb.txt    -U K:\v1\Plankton\TempBeamSearch\2004_March_02\BeamSearch_TestData.data   -F Raw
+
+
+//  -c C:\bigpine\Plankton\StatusReports\2004-05-04\ClassByOneVsOne.cfg  -R C:\bigpine\Plankton\StatusReports\2004-05-04\ClassByOneVsOne.txt  -U C:\bigpine\Plankton\StatusReports\2004-05-04\2004_03_02_TestData.data
+//  -c K:\Plankton\StatusReports\2004-05-18\BeamSearch.cfg      -R  K:\Plankton\StatusReports\2004-05-18\NewFourierFeatures.txt   -DF K:\v1\Plankton\TempBeamSearch\2004_March_02\2004_03_02_TestData.data 
+
+
+// -c FiveBigest.cfg      -R  Test.txt    -df ActiveLearning_ValidationImages.data -Folds 10
+
+
+
+
+//  -c  K:\Plankton\StatusReports\2004-06-08\VPR_Data.cfg  -R c  K:\Plankton\StatusReports\2004-06-08\VPR_Data.txt
+
+
+//  July-29-2004
+//  Trying to verify that the Cross validation program still works.
+//  -c  FiveBigest.cfg  -R TestReport.txt -df ActiveLearning_ValidationImages.data
+
+
+//  2004-Aug-29
+//  -c  ThesisFiveBigest.cfg  -R  C:\users\kkramer\GradSchool\Plankton\StatusReports\2004-08-31\ThesisFiveBigest.txt  -s ThesisFiveBigest.data
+
+// 2004-09-30
+// Used tp help build Test Data set with 8 classes for Thessi
+// -c C:\users\kkramer\GradSchool\Thesis\TestSet8Classes\Thesis8Classes.cfg  -Save  C:\users\kkramer\GradSchool\Thesis\TestSet8Classes\EightClasses.data -Report  C:\users\kkramer\GradSchool\Thesis\TestSet8Classes\AllFeatures_ExceptOldFD.txt
+
+
+// 2004-10-06
+// -c K:\Thesis\TestSet9Classes\300ImagesPerClass\Using5OldContourFfeatures\Thesis9Classes.cfg  -df K:\Thesis\TestSet9Classes\300ImagesPerClass\Using5OldContourFfeatures\NineClasses_ValidationData.data  -Report K:\Thesis\TestSet9Classes\300ImagesPerClass\Using5OldContourFfeatures\CV_Best29Features_TestData.txt    -Validation K:\Thesis\TestSet9Classes\300ImagesPerClass\Using5OldContourFfeatures\NineClasses_TestData.data
+
+// 2004-10-12,  tests for Thesis Purposes,  specifically interested in Contour Features
+// -c Thesis9Classes.cfg  -df NineClasses_TestData.data  -Report K:\Thesis\CV_Expirements\Contour_100SamplePoints_FirstAndLast8_NonNormalized.txt
+
+
+// 2004-11-22
+// Make  "K:\v1\Plankton\ActiveLearning\Results\LetterRecognition\"  default directory
+// Validation Data
+// -c 26Letters.cfg   -df letter-recognition_ValidationData.data  -Format  UCI  -Report K:\v1\Plankton\StatusReports\2004-11-23\Letter_Validation.txt
+
+// 2004-11-22
+// Make  "K:\v1\Plankton\ActiveLearning\Results\LetterRecognition\"  default directory
+// Test Data
+// -c 26Letters.cfg   -df letter-recognition_TestData.data  -Format  UCI  -Report K:\v1\Plankton\StatusReports\2004-11-23\Letter_Test.txt
+
+// 2004-11-23
+// Make  "K:\v1\Plankton\ActiveLearning\Results\LetterRecognition\"  default directory
+// Using Test Data as Training Data   and  Validation Data as Grading Data
+// -c 26Letters.cfg   -df letter-recognition_ValidationData.data -Validation   letter-recognition_TestData.data   -Format  UCI  -Report K:\v1\Plankton\StatusReports\2004-11-23\Letter_Validation-n-Test.txt
+
+// 2004-11-23
+// Make  "K:\v1\Plankton\ActiveLearning\Results\LetterRecognition\"  default directory
+// Using Test Data as Training Data   and  Validation Data as Grading Data
+// -c 26Letters_200.cfg   -df   letter-recognition_TestData.data   -Format  UCI  -Report K:\v1\Plankton\StatusReports\2004-11-23\Letter_Test-200.txt
+
+
+
+// 2004-11-29,  tests for Thesis Purposes,  Cross Validation for each Feature
+// -c Thesis9Classes.cfg  -TryEachFeature -df NineClasses_TestData.data  -Report K:\Thesis\CV_Expirements\EachFeatureIndividualy.txt
+
+// 2004-11-30,  tests for Thesis Purposes,  Cross Validation for each Feature
+// -c Thesis9Classes.cfg  -df NineClasses_TestData.data  -Report C:\users\kkramer\GradSchool\Thesis\CV_Expirements\EachFeatureIndividualy.txt
+
+// 2004-12-22,  Wanting to get probabilities by Class
+// -c Thesis9Classes.cfg  -df NineClasses_ValidationData.data  -P -Report C:\users\kkramer\GradSchool\Plankton\StatusReports\2004-12-22\Probabilityreport.txt
+
+
+// 2005-01-06    For feature Section of Thesis
+//   C:\users\kkramer\GradSchool\Thesis\TestSet9Classes\300_ImagesPerClass\UsingOld5ContourFeatures
+//  -c Thesis9Classes.cfg  -df NineClasses_TestData.data  -Report CV_Top200.txt
+
+
+// 2005-01-19
+// K:\v1\Plankton\ActiveLearning\Results\2004_Sep_Expirements
+// -c FiveBigest.cfg  -df ActiveLearning_MasterTestImages.data  -Validation ActiveLearning_ValidationImages.data  -r K:\v1\Plankton\StatusReports\2005-01-19\MasterTrain_ValidationTest.txt
+
+
+// 2005-01-19
+// K:\v1\Plankton\ActiveLearning\Results\2004_Sep_Expirements
+// -c FiveBigest.cfg  -df ActiveLearning_MasterData_Diff_Prior.data  -Validation ActiveLearning_MasterTest_Diff_Prior.data  -r PriorDiff.txt
+
+
+// 2005-01-19
+// -c TwoClasses.cfg  -r TwoClasses.txt  -Save  TwoClasses.data  
+
+
+// 2005-02-24
+// K:\v1\Plankton\ActiveLearning\Results\2004_Sep_Expirements
+// -c FiveBigest.cfg  -df ActiveLearning_MasterTestImages.data  -Validation ActiveLearning_ValidationImages.data  -r K:\v1\Plankton\StatusReports\2005-03-02\MasterTrain_ValidationTest.txt
+
+
+// 2005-03-10
+//K:\Thesis\TestSet9Classes\1000_ImagesPerClass
+//  -c Thesis9Classes.cfg  -df NineClasses_TestData.data  -Report K:\Thesis\CV_Expirements\CV_All-Moments.txt
+
+// 2005-05-15
+// C:\users\kkramer\GradSchool\Thesis\TestSet9Classes\1000_ImagesPerClass
+// -c Thesis9Classes.cfg  -df NineClasses_TestData.data  -Report C:\users\kkramer\GradSchool\Thesis\CV_Expirements\CV_5-FourierTexture.txt
+
+
+// 2005-03-14
+// -c "C:\TrainingApp\DataFiles\TrainingModels\1% and greater model.cfg"  -Save c:\Temp\OnePercentModelTestData.data  -Report  c:\Temp\OnePercentModelData.txt 
+
+// 2005-03-24
+// -c Thesis9Classes.cfg  -df NineClasses_TestData.data  -Report BinaryResults_NewFeatures.txt  -Binary  
+// C:\users\kkramer\GradSchool\Thesis\TestSet9Classes\300_ImagesPerClass\UsingOld5ContourFeatures\BinaryFeatureSearch
+
+// 2005-04-05
+// -c Thesis9Classes.cfg  -df NineClasses_TestData.data  -Report BinaryResults_NewFeatures.txt 
+// C:\users\kkramer\GradSchool\Thesis\TestSet9Classes\300_ImagesPerClass\UsingOld5ContourFeatures\BinaryFeatureSearch
+// K:\Thesis\TestSet9Classes\300_ImagesPerClass\Using5OldContourFfeatures\BinaryFeatureSearch
+
+// 2005-04-06
+// -c Thesis9Classes.cfg  -df NineClasses_TestData.data  -Report NewSvm.txt 
+// C:\users\kkramer\GradSchool\Thesis\TestSet9Classes\300_ImagesPerClass\UsingOld5ContourFeatures\BinaryFeatureSearch
+// K:\Thesis\TestSet9Classes\300_ImagesPerClass\Using5OldContourFfeatures\BinaryFeatureSearch
+
+
+// -c "C:\TrainingApp\DataFiles\TrainingModels\ECOHAB.cfg" -Report test1
+
+// 2005-04-17
+// -c Pun-01_Same_2Up.cfg  -df NineClasses_TestData.data  -Report BinaryResults_NewFeatures.txt  -Binary  
+// 
+
+// 2005-04-17     For common feature set.
+// -c Pun-01_Best.cfg  -df NineClasses_TestData.data  -Report BinaryResults_CommonFeatureSet.txt  -Binary  
+// K:\v1\Thesis\TestSet9Classes\300_ImagesPerClass\Using5OldContourFfeatures\BinaryFeatureSearch_01-PunishmentFactor
+
+
+// 2005-04-20
+
+
+// K:\v1\Classes\DM\Project\Results_Pun-00
+// -c Pun-00_Best.cfg  -df K:\v1\Thesis\TestSet9Classes\300_ImagesPerClass\Using5OldContourFfeatures\BinaryFeatureSearch_10-PunishmentFactor\NineClasses_TestData.data  -Report Punt-00-Best-Binary.txt -Binary
+
+
+// PunishmentFactor = 0.10,  
+// K:\v1\Classes\DM\Project\Results_Pun-10
+// -c Pun-10_Same.cfg  -df K:\v1\Thesis\TestSet9Classes\300_ImagesPerClass\Using5OldContourFfeatures\BinaryFeatureSearch_10-PunishmentFactor\NineClasses_TestData.data  -Report Pun-10-Same.txt 
+// -c Pun-10_Best.cfg  -df K:\v1\Thesis\TestSet9Classes\300_ImagesPerClass\Using5OldContourFfeatures\BinaryFeatureSearch_10-PunishmentFactor\NineClasses_TestData.data  -Report Punt-10-Best.txt 
+// -c OneSetOfFeatures_Best.cfg  -df K:\v1\Thesis\TestSet9Classes\300_ImagesPerClass\Using5OldContourFfeatures\BinaryFeatureSearch_10-PunishmentFactor\NineClasses_TestData.data  -Report OneSetOfFeatures_Best.txt 
+// -c OneSetOfFeatures_Same.cfg  -df K:\v1\Thesis\TestSet9Classes\300_ImagesPerClass\Using5OldContourFfeatures\BinaryFeatureSearch_10-PunishmentFactor\NineClasses_TestData.data  -Report OneSetOfFeatures_Same_SVM-New.txt 
+// -c Pun-10_Same_1Up.cfg -df K:\v1\Thesis\TestSet9Classes\300_ImagesPerClass\Using5OldContourFfeatures\BinaryFeatureSearch_10-PunishmentFactor\NineClasses_TestData.data  -Report Pun-10_Same_1Up.txt 
+
+// K:\v1\Classes\DM\Project\Results_Pun-01
+// -c Pun-01_Best.cfg  -df K:\v1\Thesis\TestSet9Classes\300_ImagesPerClass\Using5OldContourFfeatures\BinaryFeatureSearch_10-PunishmentFactor\NineClasses_TestData.data  -Report Punt-01-Best.txt 
+// -c Pun-01_Same_0Up.cfg  -df K:\v1\Thesis\TestSet9Classes\300_ImagesPerClass\Using5OldContourFfeatures\BinaryFeatureSearch_10-PunishmentFactor\NineClasses_TestData.data  -Report Pun-01_Same_0Up.txt
+// -c Pun-01_Same_1Up.cfg  -df K:\v1\Thesis\TestSet9Classes\300_ImagesPerClass\Using5OldContourFfeatures\BinaryFeatureSearch_10-PunishmentFactor\NineClasses_TestData.data  -Report Pun-01_Same_1Up.txt
+// -c Pun-01_Same_2Up.cfg  -df K:\v1\Thesis\TestSet9Classes\300_ImagesPerClass\Using5OldContourFfeatures\BinaryFeatureSearch_10-PunishmentFactor\NineClasses_TestData.data  -Report Pun-01_Same_2Up.txt
+// -c Pun-01_Same_3Up.cfg  -df K:\v1\Thesis\TestSet9Classes\300_ImagesPerClass\Using5OldContourFfeatures\BinaryFeatureSearch_10-PunishmentFactor\NineClasses_TestData.data  -Report Pun-01_Same_3Up.txt
+// -c Pun-01_Same_4Up.cfg  -df K:\v1\Thesis\TestSet9Classes\300_ImagesPerClass\Using5OldContourFfeatures\BinaryFeatureSearch_10-PunishmentFactor\NineClasses_TestData.data  -Report Pun-01_Same_4Up.txt
+// -c Pun-01_Same_5Up.cfg  -df K:\v1\Thesis\TestSet9Classes\300_ImagesPerClass\Using5OldContourFfeatures\BinaryFeatureSearch_10-PunishmentFactor\NineClasses_TestData.data  -Report Pun-01_Same_5Up.txt
+// -c Pun-01_Same_6Up.cfg  -df K:\v1\Thesis\TestSet9Classes\300_ImagesPerClass\Using5OldContourFfeatures\BinaryFeatureSearch_10-PunishmentFactor\NineClasses_TestData.data  -Report Pun-01_Same_6Up.txt
+// -c Pun-01_Same_7Up.cfg  -df K:\v1\Thesis\TestSet9Classes\300_ImagesPerClass\Using5OldContourFfeatures\BinaryFeatureSearch_10-PunishmentFactor\NineClasses_TestData.data  -Report Pun-01_Same_7Up.txt
+// -c Pun-01_Same_8Up.cfg  -df K:\v1\Thesis\TestSet9Classes\300_ImagesPerClass\Using5OldContourFfeatures\BinaryFeatureSearch_10-PunishmentFactor\NineClasses_TestData.data  -Report Pun-01_Same_8Up.txt
+// -c Pun-01_Same_9Up.cfg  -df K:\v1\Thesis\TestSet9Classes\300_ImagesPerClass\Using5OldContourFfeatures\BinaryFeatureSearch_10-PunishmentFactor\NineClasses_TestData.data  -Report Pun-01_Same_9Up.txt
+
+
+// K:\v1\Classes\DM\Project\Results_Pun-01
+// -c Pun-01_Best.cfg  -df K:\v1\Thesis\TestSet9Classes\300_ImagesPerClass\Using5OldContourFfeatures\BinaryFeatureSearch_10-PunishmentFactor\NineClasses_TestData.data  -Report Pun-01_Best.txt -binary
+// -c Pun-01_Best.cfg  -df K:\v1\Thesis\TestSet9Classes\300_ImagesPerClass\Using5OldContourFfeatures\BinaryFeatureSearch_10-PunishmentFactor\NineClasses_TestData.data  -Report Pun-01-Best-Binary.txt -binary
+// 
+
+
+// K:\v1\Classes\DM\Project\Results_UsingCommonFeatures
+// -c Thesis9Classes.cfg -df NineClasses_TestData.data  -Report CommonFeatures-Binary.txt -binary
+
+
+// 2005-05-04,  
+// K:\v1\Thesis\TestSet9Classes\300_ImagesPerClass\Using5OldContourFfeatures
+// -c Thesis9Classes.cfg  -df NineClasses_TestData.data  -Report K:\v1\Thesis\CV_Expirements\TestRandomFeatureSelectionReport.txt
+
+
+// 2005-06-09  
+// -c Adult.cfg  -df new_adult.data -Report Adult_Report.txt
+// K:\v1\Adult\Daniel
+// -c Adult.cfg  -df adult_ready_2.data  -report Adult_Daniel_SavedData.txt -folds 2
+
+// -c adult.cfg -df new_adult.data2  -Validation new_adult.test2  
+
+// 2005-06-13
+//K:\v1\Thesis\TestSet9Classes\DataFor_5_2-Fold-CV
+// -c Thesis9Classes.cfg  -df NineClasses_TestData_v0.data  -Report File_Features-57_v0.txt  -Folds 2
+
+// 2005-06-21
+//
+// -c Genes.cfg  -df X:\colon_cancer\classifiers\dukes.data  -Report  GenesReport.txt
+

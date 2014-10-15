@@ -1,0 +1,6 @@
+-src D:\TrainingApp\ClassifiedImages\HRS030204  
+-report  TestReport.txt  
+-random  -b 60 -I 50  
+-LLoydsBinSize 20000  
+-nnt same  
+-ExcludeClass Artifact_lines

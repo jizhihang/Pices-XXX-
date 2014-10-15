@@ -1,0 +1,10 @@
+
+------------------------------------------------------------------------
+Run Date                [2011/Oct/15-11:52:00].
+Report File Name        [oil_GradingReport.txt].
+HTML File Name          [oil_GradingReport.html].
+Source Root Directory   [C:\temp\oil].
+Ground Truch Directory  [D:\Pices\TrainingLibraries\oil].
+Config File Name        [].
+------------------------------------------------------------------------
+

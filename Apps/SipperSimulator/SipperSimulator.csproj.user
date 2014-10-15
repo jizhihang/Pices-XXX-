@@ -1,0 +1,8 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <StartArguments>C:\Pices\SipperFiles\ETP2008\ETP2008_1C\ETP2008_1C_02.spr</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'EmbededDebug|AnyCPU' ">
+    <StartArguments>C:\Pices\SipperFiles\ETP2008\ETP2008_1C\ETP2008_1C_02.spr</StartArguments>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,24 @@
+g++ -O3 -c Application.cpp
+g++ -O3 -c ../BaseLibrary/BitString.cpp
+g++ -O3 -c ../BaseLibrary/Blob.cpp
+g++ -O3 -c ../BaseLibrary/BMPImage.cpp
+g++ -O3 -c ../BaseLibrary/Chart.cpp
+g++ -O3 -c CmdLineExpander.cpp
+g++ -O3 -c ../BaseLibrary/Configuration.cpp
+g++ -O3 -c ../BaseLibrary/ContourFollower.cpp -I../OutsidePackages/fftw-3.1.2/api   -I../OutsidePackages/fftw-3.1.2/api
+g++ -O3 -c ../BaseLibrary/ConvexHull.cpp
+g++ -O3 -c ../BaseLibrary/DateTime.cpp
+g++  -O3 -c ../BaseLibrary/EigenVector.cpp
+g++ -O3 -c ../BaseLibrary/Histogram.cpp
+g++ -O3 -c ../BaseLibrary/ImageIO.cpp
+g++ -O3 -c ../BaseLibrary/ImageDirTree.cpp
+g++ -O3 -c ../BaseLibrary/OSservices.cpp
+g++ -O3 -c ../BaseLibrary/Point.cpp
+g++ -O3 -c ../BaseLibrary/Raster.cpp  -I../OutsidePackages/fftw-3.1.2/api  -I../OutsidePackages/fftw-3.1.2/api
+g++ -O3 -c ../BaseLibrary/RunLog.cpp
+g++ -O3 -c ../BaseLibrary/Sobel.cpp
+g++ -O3 -c ../BaseLibrary/StatisticalFunctions.cpp
+g++ -O3 -c ../BaseLibrary/Str.cpp
+g++ -O3 -c ../BaseLibrary/TokenBuffer.cpp
+g++ -O3 -c ../BaseLibrary/Tokenizer.cpp
+ar cq libBaseLibrary.a  Application.o               BitString.o                 Blob.o                      BMPImage.o              Chart.o                     CmdLineExpander.o           Configuration.o             ContourFollower.o       ConvexHull.o                DateTime.o                  EigenVector.o               Histogram.o             ImageIO.o                   ImageDirTree.o              OSservices.o                Point.o                 Raster.o                    RunLog.o                    Sobel.o                     StatisticalFunctions.o  Str.o                       TokenBuffer.o               Tokenizer.o

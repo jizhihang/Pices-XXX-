@@ -1,0 +1,254 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\ImageExtractionWindows.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\ImageExtractionWindows.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG  0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About ImageExtractionWindows"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "ImageExtractionWindows Version 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2004",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_IMAGEEXTRACTIONWINDOWS_DIALOG DIALOGEX 0, 0, 487, 365
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "ImageExtractionWindows"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Cancel",IDCANCEL,208,336,50,14
+    LTEXT           "Sipper File Size",IDC_SipperFileSizeLabel,220,96,57,14,SS_CENTERIMAGE
+    EDITTEXT        IDC_sipperFileSize,279,96,97,14,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "Progress1",IDC_ExtractProgress,"msctls_progress32",WS_BORDER,13,192,460,11
+    EDITTEXT        IDC_BytesExtracted,279,115,97,13,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Bytes Extracted",IDC_BytesExtractedLabel,220,115,57,13,SS_CENTERIMAGE
+    LTEXT           "Lines Extracted",IDC_LinesExtractedLabel,220,134,57,13,SS_CENTERIMAGE
+    EDITTEXT        IDC_LinesExtracted,279,134,97,13,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Images Extracted",IDC_ImagesExtractedLabel,220,152,57,13,SS_CENTERIMAGE
+    LTEXT           "Images Written",IDC_ImagesWrittenLabel,220,171,57,13,SS_CENTERIMAGE
+    EDITTEXT        IDC_ImagesExtracted,279,152,97,13,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_ImagesWritten,279,171,97,13,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Minimum Size",IDC_MinimumImageSizeLabel,22,115,49,14,SS_CENTERIMAGE
+    LTEXT           "Sipper File",IDC_SipperFileLabel,22,38,49,14,SS_CENTERIMAGE
+    LTEXT           "Destination Dir",IDC_DestinationDirectoryLabel,22,59,49,14,SS_CENTERIMAGE
+    EDITTEXT        IDC_SipperFile,75,38,398,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_DestinationDirectory,75,59,398,14,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "Save Frames",IDC_SaveFrames,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,21,96,63,16
+    EDITTEXT        IDC_MinimumSize,75,115,79,14,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "Extract Features",IDC_ExtractFeatures,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,20,152,63,16
+    LTEXT           "Maximum Size",IDC_MaximumImageSizeLabel,22,134,49,14,SS_CENTERIMAGE
+    EDITTEXT        IDC_MaximumSize,75,135,79,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_Class1Name,21,230,92,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_Class1Count,112,230,50,14,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_Class2Name,21,247,92,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_Class2Count,112,247,50,14,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_Class3Name,21,264,92,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_Class3Count,112,264,50,14,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_Class4Name,21,280,91,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_Class4Count,112,280,50,14,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_Class5Name,174,213,92,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_Class5Count,265,213,50,14,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_Class6Name,174,230,92,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_Class6Count,265,230,50,14,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_Class7Name,174,245,92,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_Class7Count,265,245,50,14,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_Class8Name,174,263,92,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_Class8Count,265,263,50,14,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_Class9Name,174,280,92,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_Class9Count,265,280,50,14,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_Class10Name,327,213,92,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_Class10Count,417,213,50,14,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_Class11Name,327,228,92,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_Class11Count,418,228,50,14,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_Class12Name,327,246,92,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_Class12Count,418,246,50,14,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_Class0Name,21,213,91,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_Class0Count,111,213,50,14,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_Class13Name,327,263,92,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_Class13Count,417,263,50,14,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_Class14Name,327,280,92,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_Class14Count,417,280,50,14,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Training Model",IDC_ConfigFileLabel,20,171,49,14,SS_CENTERIMAGE
+    EDITTEXT        IDC_ConfigFileName,75,171,79,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_StatusMessage,14,314,459,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "DataBase",IDC_DatabaseLalbel,22,14,42,14,SS_CENTERIMAGE
+    EDITTEXT        IDC_Database,75,15,398,14,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "FileDescription", "ImageExtractionWindows MFC Application"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "ImageExtractionWindows"
+            VALUE "LegalCopyright", "Copyright (C) 2004"
+            VALUE "OriginalFilename", "ImageExtractionWindows.EXE"
+            VALUE "ProductName", "ImageExtractionWindows Application"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_IMAGEEXTRACTIONWINDOWS_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 480
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 358
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About ImageExtractionWindows..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\ImageExtractionWindows.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

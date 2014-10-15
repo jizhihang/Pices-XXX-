@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ActiveLearningApp", "ActiveLearningApp.vcproj", "{E934B36F-4AE4-45FA-AFFA-2DCB06F9E5FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{E934B36F-4AE4-45FA-AFFA-2DCB06F9E5FD}.Debug.ActiveCfg = Debug|Win32
+		{E934B36F-4AE4-45FA-AFFA-2DCB06F9E5FD}.Debug.Build.0 = Debug|Win32
+		{E934B36F-4AE4-45FA-AFFA-2DCB06F9E5FD}.Release.ActiveCfg = Release|Win32
+		{E934B36F-4AE4-45FA-AFFA-2DCB06F9E5FD}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

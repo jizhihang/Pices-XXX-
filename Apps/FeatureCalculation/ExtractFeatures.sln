@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExtractFeatures", "ExtractFeatures.vcproj", "{5151420B-8CA9-41D5-BDE9-71FBFDCCC50B}"
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "fftw", "fftw\fftw.dsp", "{C13D7D1B-1CF5-4EBE-85A1-55F1AADE336C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		EmbeddedDebug|Win32 = EmbeddedDebug|Win32
+		EmbeddedRelease|Win32 = EmbeddedRelease|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5151420B-8CA9-41D5-BDE9-71FBFDCCC50B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5151420B-8CA9-41D5-BDE9-71FBFDCCC50B}.Debug|Win32.Build.0 = Debug|Win32
+		{5151420B-8CA9-41D5-BDE9-71FBFDCCC50B}.EmbeddedDebug|Win32.ActiveCfg = EmbeddedDebug|Win32
+		{5151420B-8CA9-41D5-BDE9-71FBFDCCC50B}.EmbeddedDebug|Win32.Build.0 = EmbeddedDebug|Win32
+		{5151420B-8CA9-41D5-BDE9-71FBFDCCC50B}.EmbeddedRelease|Win32.ActiveCfg = EmbeddedRelease|Win32
+		{5151420B-8CA9-41D5-BDE9-71FBFDCCC50B}.EmbeddedRelease|Win32.Build.0 = EmbeddedRelease|Win32
+		{5151420B-8CA9-41D5-BDE9-71FBFDCCC50B}.Release|Win32.ActiveCfg = Release|Win32
+		{5151420B-8CA9-41D5-BDE9-71FBFDCCC50B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

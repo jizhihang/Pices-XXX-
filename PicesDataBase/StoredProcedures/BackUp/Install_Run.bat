@@ -1,0 +1,1 @@
+Install root dasani30  pices_iec  localhost

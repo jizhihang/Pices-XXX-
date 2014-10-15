@@ -1,0 +1,78 @@
+
+bs=00100000 bc=00000000 be=04000000 fr=000 da=01/03/2007 ti=16:05:34 rs=s 
+>> camera
+
+Type "exit" to return.  Timeout in 15 seconds      
+OK>gcd
+Error 3: Invalid command>
+       
+>> gcp
+
+gcp: unknown command.
+Type help for assistance
+
+>> gcp
+
+gcp: unknown command.
+Type help for assistance
+
+>> campera
+
+campera: unknown command.
+Type help for assistance
+
+>> camera
+
+Type "exit" to return.  Timeout in 15 seconds      
+OK>gcp
+
+G E N E R A L   C A M E R A   S E T T I N G S:
+
+Camera Model No.:               P2-42-04K40
+Camera Serial No.:              04265010
+Sensor Serial No.:              04083793
+Camera Network ID:              0
+Network Message Mode:           disabled
+
+Firmware Design Rev.:           03-39-00379-02 Feb 27 2004
+DSP Design Rev.:                0.1
+
+SETTINGS FOR UNCALIBRATED MODE:
+
+Analog Gain (dB):               +0.0    +0.0    +0.0    +0.0    
+Analog Offset:                  315     311     311     328    
+
+SETTINGS FOR CALIBRATED MODE:
+
+Analog Gain (dB):               +0.0    +0.0    +0.0    +0.0    
+Analog Offset:                  0       0       0       0      
+Digital Offset:                 0       0       0       0      
+Calibration Status:             FPN [uncalibrated] PRNU [uncalibrated]
+
+SETTINGS COMMON TO CALIBRATED AND UNCALIBRATED MODES:
+
+System Gain:                    0       0       0       0      
+Background Subtract:            0       0       0       0      
+
+Pretrigger:                     0      
+Number Of Line Samples:         64     
+Video Mode:                     uncalibrated
+Data Mode:                      0      
+Exposure Mode:                  2      
+
+SYNC Frequency:                 20000 (19953.4) Hz
+Exposure Time:                  49.700 uSec
+
+End-Of-Line Sequence:           on
+Upper Threshold:                240    
+Lower Threshold:                15     
+Region Of Interest:             0001 - 4096
+
+OK>exit
+!!j
+>> exit
+
+exit: unknown command.
+Type help for assistance
+
+>> 

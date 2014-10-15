@@ -1,0 +1,128 @@
+#if  !defined(_ABUNDANCECORRECTIONSTATSBUILDER_)
+#define  _ABUNDANCECORRECTIONSTATSBUILDER_
+
+#include "Application.h"
+#include "MsgQueue.h"
+#include "RunLog.h"
+#include "Str.h"
+
+#include "AbundanceCorrectionMatrix.h"
+#include "FeatureFileIO.h"
+#include "FeatureVector.h"
+#include "FileDesc.h"
+#include "ImageFeatures.h"
+#include "ImageClass.h"
+#include "NormalizationParms.h"
+#include "TrainingConfiguration2.h"
+
+namespace  AbundanceCorrectionApplication
+{
+
+  class  AbundanceCorrectionStatsBuilder: public Application
+  {
+  public:
+    typedef  KKU::uchar  uchar;
+    typedef  KKU::uint   uint;
+    typedef  KKU::ulong  ulong;
+    typedef  KKU::ushort ushort;
+
+    AbundanceCorrectionStatsBuilder (int     argc, 
+                                     char**  argv
+                                    );
+
+    ~AbundanceCorrectionStatsBuilder ();
+
+    void  Main ();
+
+  private:
+    void   DisplayCommandLineParameters ();
+
+    void   ManageValidations ();
+
+    void   PrintStartStatistics ();
+
+    bool   ProcessCmdLineParameter (char    parmSwitchCode, 
+                                    KKStr   parmSwitch, 
+                                    KKStr   parmValue
+                                   );
+
+    void   RemoveDuplicateImages ();
+<<<<<<< .mine
+
+
+
+    AbundanceCorrectionMatrixPtr  abundanceCorMatrix;
+
+    ImageClassListPtr             allClasses;           /**< Contains  trainLibDataClasses + otherClass               */
+
+    TrainingConfiguration2Ptr     config;
+                             
+    ImageClassListPtr             configClasses;
+                             
+    KKStr                         configFileName;
+                             
+    KKStr                         configFileFullPath;   /**< Will include the full path to config file that is used.  */
+                             
+    FileDescPtr                   fileDesc;
+
+    MsgQueuePtr                   msgQueue;
+
+    NormalizationParmsPtr         normalizationParms;
+                             
+    int                           numOfFolds;
+                             
+    ImageClassPtr                 otherClass;
+                             
+    FeatureVectorListPtr          otherClassData;
+                             
+    KKStr                         reportFileName;
+                             
+    ostream*                      report;
+                             
+    FeatureVectorListPtr          trainLibData;         /**< All the examples that were retrived from the configuration file. */
+                             
+    ImageClassListPtr             trainLibDataClasses;
+  };  /* AbundanceCorrectionStatsBuilder */
+}
+#endif
+=======
+
+
+
+    AbundanceCorrectionMatrixPtr  abundanceCorMatrix;
+
+    ImageClassListPtr             allClasses;           /**< Contains  trainLibDataClasses + otherClass               */
+
+    TrainingConfiguration2Ptr     config;
+                             
+    ImageClassListPtr             configClasses;
+                             
+    KKStr                         configFileName;
+                             
+    KKStr                         configFileFullPath;   /**< Will include the full path to config file that is used.  */
+                             
+    FileDescPtr                   fileDesc;
+
+    MsgQueuePtr                   msgQueue;
+
+    NormalizationParmsPtr         normalizationParms;
+                             
+    int                           numOfFolds;
+                             
+    ImageClassPtr                 otherClass;
+                             
+    FeatureVectorListPtr          otherClassData;
+                             
+    KKStr                         reportFileName;
+                             
+    ostream*                      report;
+                             
+    FeatureVectorListPtr          trainLibData;         /**< All the examples that were retrived from the configuration file. */
+                             
+    ImageClassListPtr             trainLibDataClasses;
+  };  /* AbundanceCorrectionStatsBuilder */
+
+  typedef  AbundanceCorrectionStatsBuilder*  AbundanceCorrectionStatsBuilderPtr;
+}
+#endif
+>>>>>>> .r846
