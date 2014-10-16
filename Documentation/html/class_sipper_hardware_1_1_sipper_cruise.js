@@ -1,0 +1,25 @@
+var class_sipper_hardware_1_1_sipper_cruise =
+[
+    [ "SipperCruisePtr", "class_sipper_hardware_1_1_sipper_cruise.html#a89e44fe7b3319813a173c35281771a40", null ],
+    [ "SipperCruise", "class_sipper_hardware_1_1_sipper_cruise.html#a405844742e0d24dfa8dd756ee54da09e", null ],
+    [ "~SipperCruise", "class_sipper_hardware_1_1_sipper_cruise.html#a6544ffb6e9243ff91e0a02d6458cff83", null ],
+    [ "CruiseName", "class_sipper_hardware_1_1_sipper_cruise.html#aa19844dc51c96e897416e9e38e886492", null ],
+    [ "CruiseName", "class_sipper_hardware_1_1_sipper_cruise.html#a4f58fe4ba67020a85992e7ac90791181", null ],
+    [ "DateEnd", "class_sipper_hardware_1_1_sipper_cruise.html#a0f3251eec6f209fcf90f84b0c6e982b3", null ],
+    [ "DateEnd", "class_sipper_hardware_1_1_sipper_cruise.html#a631d2c079ef316e93c1fabfa987e2fc3", null ],
+    [ "DateStart", "class_sipper_hardware_1_1_sipper_cruise.html#aba7caf980a5503160c5867629dd77e28", null ],
+    [ "DateStart", "class_sipper_hardware_1_1_sipper_cruise.html#a09543df7c6df626d64089e82fbcb6012", null ],
+    [ "Description", "class_sipper_hardware_1_1_sipper_cruise.html#a0c72429256cabf3015abd6a6c40258fc", null ],
+    [ "Description", "class_sipper_hardware_1_1_sipper_cruise.html#ada5d9db2e1a94fb4744acc794548523f", null ],
+    [ "Location", "class_sipper_hardware_1_1_sipper_cruise.html#a86baa11a9edf41cb0decac9ea32f1baf", null ],
+    [ "Location", "class_sipper_hardware_1_1_sipper_cruise.html#a43262ad9c32d1bc7bf5090d51b0adb92", null ],
+    [ "Objective", "class_sipper_hardware_1_1_sipper_cruise.html#acd1b1cf1d4aaad9d7ea6a7ec0fa488b0", null ],
+    [ "Objective", "class_sipper_hardware_1_1_sipper_cruise.html#aaf34144fde61520c7d0f990cb993a387", null ],
+    [ "Principal", "class_sipper_hardware_1_1_sipper_cruise.html#a4abc7cc1151b53d9e8563ca400c43820", null ],
+    [ "Principal", "class_sipper_hardware_1_1_sipper_cruise.html#ab108080ddb7d34f8eb101c4d65f3b71d", null ],
+    [ "ResearchOrg", "class_sipper_hardware_1_1_sipper_cruise.html#a4a75d35c13d18eb8cfe6e9c5feb38261", null ],
+    [ "ResearchOrg", "class_sipper_hardware_1_1_sipper_cruise.html#a6797e196c79a5812d4f79f94ef261970", null ],
+    [ "ShipName", "class_sipper_hardware_1_1_sipper_cruise.html#a54bb2884ac0572764ae6fe57b9ff4c3a", null ],
+    [ "ShipName", "class_sipper_hardware_1_1_sipper_cruise.html#a413d15c5fdc587d611cf511fab691d3c", null ],
+    [ "ValidateCruiseName", "class_sipper_hardware_1_1_sipper_cruise.html#a757e3ccaef610bf9bfdb63ba382cffdc", null ]
+];

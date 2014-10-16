@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['begin_5fconnection_5fstring',['BEGIN_CONNECTION_STRING',['../_usf_cas_cor_8cpp.html#acd00b47e46594b632a44b1927e0e4034',1,'BEGIN_CONNECTION_STRING():&#160;UsfCasCor.cpp'],['../_usf_cas_cor___using_double_8cpp.html#acd00b47e46594b632a44b1927e0e4034',1,'BEGIN_CONNECTION_STRING():&#160;UsfCasCor_UsingDouble.cpp']]],
+  ['begin_5finput_5fweights_5fstring',['BEGIN_INPUT_WEIGHTS_STRING',['../_usf_cas_cor_8cpp.html#a57a769cb23b92859fb1dc5038d4f1b88',1,'BEGIN_INPUT_WEIGHTS_STRING():&#160;UsfCasCor.cpp'],['../_usf_cas_cor___using_double_8cpp.html#a57a769cb23b92859fb1dc5038d4f1b88',1,'BEGIN_INPUT_WEIGHTS_STRING():&#160;UsfCasCor_UsingDouble.cpp']]],
+  ['begin_5foutput_5fweights_5fstring',['BEGIN_OUTPUT_WEIGHTS_STRING',['../_usf_cas_cor_8cpp.html#ab8ee432ac598dcb57f7390834fad86c8',1,'BEGIN_OUTPUT_WEIGHTS_STRING():&#160;UsfCasCor.cpp'],['../_usf_cas_cor___using_double_8cpp.html#ab8ee432ac598dcb57f7390834fad86c8',1,'BEGIN_OUTPUT_WEIGHTS_STRING():&#160;UsfCasCor_UsingDouble.cpp']]],
+  ['begin_5fparameter_5fstring',['BEGIN_PARAMETER_STRING',['../_usf_cas_cor_8cpp.html#a46c46eceb4f8a8e3f643531b8ea07c0d',1,'BEGIN_PARAMETER_STRING():&#160;UsfCasCor.cpp'],['../_usf_cas_cor___using_double_8cpp.html#a46c46eceb4f8a8e3f643531b8ea07c0d',1,'BEGIN_PARAMETER_STRING():&#160;UsfCasCor_UsingDouble.cpp']]],
+  ['bi_5frgb',['BI_RGB',['../_b_m_pheader_8h.html#a30c89822a72c59b21109955f16d74e29',1,'BMPheader.h']]],
+  ['bi_5frle4',['BI_RLE4',['../_b_m_pheader_8h.html#a03e0233815cd4bb40ec960472628233e',1,'BMPheader.h']]],
+  ['bi_5frle8',['BI_RLE8',['../_b_m_pheader_8h.html#acac191784824d6699b54f356ecb90bb2',1,'BMPheader.h']]],
+  ['binary',['BINARY',['../_usf_cas_cor_8h.html#acc166508d5cfbf4100f8622ce97f4985',1,'BINARY():&#160;UsfCasCor.h'],['../_usf_cas_cor___using_double_8h.html#acc166508d5cfbf4100f8622ce97f4985',1,'BINARY():&#160;UsfCasCor_UsingDouble.h']]],
+  ['bits',['BITS',['../_usf_cas_cor_8h.html#a9d2a7c69bd3fabc41e1ee87df2f283b3',1,'BITS():&#160;UsfCasCor.h'],['../_usf_cas_cor___using_double_8h.html#a9d2a7c69bd3fabc41e1ee87df2f283b3',1,'BITS():&#160;UsfCasCor_UsingDouble.h']]],
+  ['bomb',['BOMB',['../_usf_cas_cor_8h.html#a72445cf3556d7115a564ad0d805c519f',1,'BOMB():&#160;UsfCasCor.h'],['../_usf_cas_cor___using_double_8h.html#a72445cf3556d7115a564ad0d805c519f',1,'BOMB():&#160;UsfCasCor_UsingDouble.h']]],
+  ['boole',['BOOLE',['../_usf_cas_cor_8h.html#ae56abbb97a08c0280500c7b6709740df',1,'BOOLE():&#160;UsfCasCor.h'],['../_usf_cas_cor___using_double_8h.html#ae56abbb97a08c0280500c7b6709740df',1,'BOOLE():&#160;UsfCasCor_UsingDouble.h']]],
+  ['boole_5fno',['BOOLE_NO',['../_usf_cas_cor_8h.html#ab5b6093cd64f860eee35320389197dd3',1,'BOOLE_NO():&#160;UsfCasCor.h'],['../_usf_cas_cor___using_double_8h.html#ab5b6093cd64f860eee35320389197dd3',1,'BOOLE_NO():&#160;UsfCasCor_UsingDouble.h']]],
+  ['bucketcount',['BucketCount',['../_sipper_extraction_image_manager_8cpp.html#a1b62cea13a095361d3c8deb2958264ec',1,'SipperExtractionImageManager.cpp']]],
+  ['bucketsizelarge',['BucketSizeLarge',['../_sipper_extraction_image_manager_8cpp.html#ac2e76fc0b775776ccbfa08bb50d25877',1,'SipperExtractionImageManager.cpp']]],
+  ['bucketsizemed',['BucketSizeMed',['../_sipper_extraction_image_manager_8cpp.html#a29f8aa87f117561f28633d88cdee1eeb',1,'SipperExtractionImageManager.cpp']]],
+  ['bucketsizesmall',['BucketSizeSmall',['../_sipper_extraction_image_manager_8cpp.html#ad67ba6b952cce91e61d5c7bc0382856c',1,'SipperExtractionImageManager.cpp']]]
+];

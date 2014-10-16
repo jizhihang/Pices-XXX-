@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['feature_5ftype',['feature_type',['../class_m_l_l_1_1_usf_cas_cor.html#ac38681a21839ba50279635b5b1d36b26',1,'MLL::UsfCasCor']]],
+  ['featuredata',['featureData',['../class_m_l_l_1_1_feature_vector.html#a7b90e90bfce07ad81995e12474996002',1,'MLL::FeatureVector']]],
+  ['featuredecriptions',['FeatureDecriptions',['../namespace_m_l_l.html#a1ad5e3f51cf3a662e07b7a69a2675dbe',1,'MLL']]],
+  ['featurenum',['featureNum',['../struct_bit_reduction_1_1_feature_var.html#a72335b9f00c8dc748baa72ed842ebc01',1,'MLL::BitReduction::FeatureVar::featureNum()'],['../struct_m_l_l_1_1_feature_encoder2_1_1_feature_var2.html#add77d72c63711468465cd09bdc1cbe35',1,'MLL::FeatureEncoder2::FeatureVar2::featureNum()']]],
+  ['features',['features',['../class_cross_validation_run.html#acb797406cb84d6ab6465428c50c432ba',1,'CrossValidationRun']]],
+  ['featuresarenormalizedalready',['featuresAreNormalizedAlready',['../class_cross_validation_app.html#a60204a85b5f9ef8512c41995e90c16cf',1,'CrossValidationApp']]],
+  ['featureweight',['featureWeight',['../struct_s_v_m233_1_1svm__parameter.html#a1e602e5cf093a3e36d340957656b091b',1,'SVM233::svm_parameter::featureWeight()'],['../struct_s_v_m233_1_1svm__model.html#a7a4a525bf1db62d493450f62d0ce114d',1,'SVM233::svm_model::featureWeight()']]],
+  ['fftwgoalkeeper',['fftwGoalKeeper',['../kku__fftw_8cpp.html#ac55163fa2c15af92f49c4ddb3cf9ef6a',1,'kku_fftw.cpp']]],
+  ['filedesc',['fileDesc',['../class_m_l_l_1_1_model.html#a7684f44efb313a430aa4c61ecff7d161',1,'MLL::Model::fileDesc()'],['../class_m_l_l_1_1_model_param.html#acbbb988fe1ff0bc0282adb5aa1e97138',1,'MLL::ModelParam::fileDesc()'],['../class_m_l_l_1_1_usf_cas_cor.html#afb5630148b12472a51bb57d76fbde962',1,'MLL::UsfCasCor::fileDesc()'],['../class_cross_validation_app.html#a270f7566b0816b0f2092f1febd8f86d7',1,'CrossValidationApp::fileDesc()']]],
+  ['filename',['fileName',['../class_sipper_hardware_1_1_sipper_buff.html#aa96120dc875428397411e74f5adcd519',1,'SipperHardware::SipperBuff::fileName()'],['../class_m_l_l_1_1_sipper_extraction_image_manager_1_1_image_entry.html#a8321c57028974679ae5ea7a5a841fc87',1,'MLL::SipperExtractionImageManager::ImageEntry::fileName()'],['../class_k_k_u_1_1_raster.html#a04b8cc11d514f5de6a5ed4ae3c50d141',1,'KKU::Raster::fileName()']]],
+  ['filestem',['filestem',['../class_m_l_l_1_1_usf_cas_cor.html#afa1b84f558ce94f58bcadf33b5188d87',1,'MLL::UsfCasCor']]],
+  ['filler',['filler',['../struct_sipper_buff4_bit_1_1_op_rec_end_of_scan_line.html#a82a35da29842566995dfe26a7d33355e',1,'SipperBuff4Bit::OpRecEndOfScanLine']]],
+  ['firebrick',['FireBrick',['../class_k_k_u_1_1_pixel_value.html#a81ee11998b9a53025dffa8ef409cc0ee',1,'KKU::PixelValue']]],
+  ['firstcase',['FirstCase',['../class_m_l_l_1_1_usf_cas_cor.html#ac787bc27563821fb89a1a4adc9be253e',1,'MLL::UsfCasCor']]],
+  ['firstinstrumentdatafield',['FirstInstrumentDataField',['../class_m_l_l_1_1_image_features.html#abdfdf8ed0f93cd117893698d12901160',1,'MLL::ImageFeatures']]],
+  ['flow',['flow',['../struct_sipper_buff_1_1_sipper_rec.html#ab24cea646d60a2460bb641060854b3cd',1,'SipperHardware::SipperBuff::SipperRec::flow()'],['../struct_sipper_hardware_1_1_sipper3_bit_rec.html#aaacfbe8c72e4ed382fef04b7a7944b9d',1,'SipperHardware::Sipper3BitRec::flow()'],['../struct_sipper_hardware_1_1_sipper_binary_rec.html#aa83020b0f115f57576d80aee1b5abe30',1,'SipperHardware::SipperBinaryRec::flow()']]],
+  ['fluorescencemean',['fluorescenceMean',['../class_sipper_hardware_1_1_instrument_data_means.html#a9740a3935bba326e6a8b7d81a50bbe8a',1,'SipperHardware::InstrumentDataMeans::fluorescenceMean()'],['../class_pices_commander_1_1_instrument_stats_by_depth.html#a2ad9ba084e3c2efdc63d53a73ec27acc',1,'PicesCommander.InstrumentStatsByDepth.fluorescenceMean()']]],
+  ['fluorescencesensormean',['fluorescenceSensorMean',['../class_sipper_hardware_1_1_instrument_data_means.html#a1bf3a7b34f28e4343dfd4a28734ad5ac',1,'SipperHardware::InstrumentDataMeans::fluorescenceSensorMean()'],['../class_pices_commander_1_1_instrument_stats_by_depth.html#aa3dbd04f2ab44f0977cea2086dac70c5',1,'PicesCommander.InstrumentStatsByDepth.fluorescenceSensorMean()']]],
+  ['foregroundpixelcount',['foregroundPixelCount',['../class_k_k_u_1_1_raster.html#a2b3a306748cbc91779c2cc8893dc5ac8',1,'KKU::Raster']]],
+  ['foregroundpixelvalue',['foregroundPixelValue',['../class_k_k_u_1_1_raster.html#a85e7a68d9c8f061dee3af68dccfccac6',1,'KKU::Raster']]],
+  ['fourbytes',['fourBytes',['../union_k_k_u_1_1_word_format32_bits.html#aac6b16d007fe174b80019c21b3830b2c',1,'KKU::WordFormat32Bits']]],
+  ['fouriermag',['fourierMag',['../class_k_k_u_1_1_raster.html#a211d6dfdf2bb9404f9e57cee4514a37b',1,'KKU::Raster']]],
+  ['fouriermagarea',['fourierMagArea',['../class_k_k_u_1_1_raster.html#a3726c342ccaf8515eeade4636facd11d',1,'KKU::Raster']]],
+  ['freqhistbucketidx',['freqHistBucketIdx',['../_raster_8cpp.html#a0f897d8bb16520a5c2c110eedcbd77dd',1,'Raster.cpp']]]
+];

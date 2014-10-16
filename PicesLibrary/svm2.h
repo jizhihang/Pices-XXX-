@@ -16,6 +16,15 @@
 using namespace  MLL;
 
 
+/**
+ *@namespace  SVM289_MFS
+ *@brief   This is a vesion 2.89 of "Chih-Chung Chang" and "Chih-Jen Lin"  libSVM (Support Vector Machine) that selects different features per pair of classes.
+ *@details 
+ *@code
+ *   Downloaded from "http://www.csie.ntu.edu.tw/~cjlin/libsvm/"
+ *@endcode
+ *@details For each pair of classes a 'FeatureNumList" instance specifies which features are to be used during kernal computations.
+ */
 namespace  SVM289_MFS
 {
   //#ifdef __cplusplus
@@ -181,8 +190,8 @@ namespace  SVM289_MFS
 
 
     svm_parameter      param;      // parameter
-    int32                nr_class;   // number of classes, = 2 in regression/one class svm
-    int32                l;          // total #SV
+    int32              nr_class;   // number of classes, = 2 in regression/one class svm
+    int32              l;          // total #SV
     FeatureVectorList  SV;         // SVs (SV[l])
     double**           sv_coef;    // coefficients for SVs in decision functions (sv_coef[k-1][l])
     double*            rho;        // constants in decision functions (rho[k*(k-1)/2])
@@ -214,8 +223,8 @@ namespace  SVM289_MFS
                          );
 
   int32  svm_save_model (const char*              model_file_name, 
-                       const struct svm_model*  model
-                      );
+                         const struct svm_model*  model
+                        );
 
   void  svm_save_model_XML (ostream&          o, 
                             const svm_model&  model
@@ -233,7 +242,7 @@ namespace  SVM289_MFS
   int32  svm_get_nr_class (const struct svm_model *model);
 
   void  svm_get_labels  (const struct svm_model*  model, 
-                         int32*                     label
+                         int32*                   label
                         );
 
   double  svm_get_svr_probability (const struct svm_model *model);
@@ -253,7 +262,7 @@ namespace  SVM289_MFS
   double svm_predict_probability (      svm_model*      model, 
                                   const FeatureVector&  x, 
                                   double*               prob_estimates,
-                                  int32*                  votes
+                                  int32*                votes
                                  );
 
   void svm_destroy_model (struct svm_model*&  model);
@@ -304,7 +313,7 @@ namespace  SVM289_MFS
   class  SVR_Q;
   struct decision_function;
 
-}  /* Svm289 */
+}  /* SVM289_MFS */
 
 
 #endif /* _LIBSVM_H */

@@ -10,6 +10,16 @@
 #include  "Str.h"
 #include  "RunLog.h"
 
+/**
+ *@namespace  SVM233
+ *@brief   This is version 2.33 of "Chih-Chung Chang" and "Chih-Jen Lin"  Support vector Machine; the class "ModelOldSVM" calls ths version.
+ *@brief   This is a vesion 2.33 of "Chih-Chung Chang" and "Chih-Jen Lin"  libSVM (Support Vector Machine); the class "ModelOldSVM" calls ths version.
+ *@details 
+ *@code
+ *   Downloaded from "http://www.csie.ntu.edu.tw/~cjlin/libsvm/"
+ *@endcode
+ */
+
 namespace  SVM233
 {
   const int32 SCALE = 100;
@@ -33,10 +43,10 @@ namespace  SVM233
     svm_problem ();
     ~svm_problem ();
 
-    int32                l;
+    int32              l;
     double*            y;
     VectorKKStr        exampleNames;    /*!< allows the user to provide names to the labels  */
-    int32*               index; //luo add
+    int32*             index; //luo add
     struct svm_node**  x;
     double*            W;
 

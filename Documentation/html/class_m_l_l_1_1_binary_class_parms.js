@@ -1,0 +1,25 @@
+var class_m_l_l_1_1_binary_class_parms =
+[
+    [ "BinaryClassParmsPtr", "class_m_l_l_1_1_binary_class_parms.html#a2ebca549944dbd936d65a0813e043b67", null ],
+    [ "svm_parameter", "class_m_l_l_1_1_binary_class_parms.html#a03c996c463bcee120de72291a091d898", null ],
+    [ "BinaryClassParms", "class_m_l_l_1_1_binary_class_parms.html#a62110e83c00ae49bc049c73edd839508", null ],
+    [ "BinaryClassParms", "class_m_l_l_1_1_binary_class_parms.html#a2ca8c7ab2c4d03ee3fa5fbcd5cb72353", null ],
+    [ "~BinaryClassParms", "class_m_l_l_1_1_binary_class_parms.html#a7bf73b95bfe4be4f0e80df352b982e87", null ],
+    [ "AParam", "class_m_l_l_1_1_binary_class_parms.html#ae5c976c5ae90b0fb5d23f2f576c6a1fd", null ],
+    [ "C", "class_m_l_l_1_1_binary_class_parms.html#a4af7e38a6f4a5e4109bd77688833d814", null ],
+    [ "C", "class_m_l_l_1_1_binary_class_parms.html#acf1a7d8559500409c87d44738d26283a", null ],
+    [ "Class1", "class_m_l_l_1_1_binary_class_parms.html#a75a85fd3794b95a6cfeddccf87b78419", null ],
+    [ "Class1Name", "class_m_l_l_1_1_binary_class_parms.html#a2cc986dba48d87b704d539d00fe25c76", null ],
+    [ "Class2", "class_m_l_l_1_1_binary_class_parms.html#aa29017237e79054e3e78698caece1d5e", null ],
+    [ "Class2Name", "class_m_l_l_1_1_binary_class_parms.html#ac587f3be83bd1007dceb8224a977acf9", null ],
+    [ "CreateFromTabDelStr", "class_m_l_l_1_1_binary_class_parms.html#ad0c89d9ee4281289249741a4292f634c", null ],
+    [ "Gamma", "class_m_l_l_1_1_binary_class_parms.html#a6183d8d2df8f0346de94aef17052a743", null ],
+    [ "MemoryConsumedEstimated", "class_m_l_l_1_1_binary_class_parms.html#ae84bd27cb8a6cddc197bec0b14c2ff50", null ],
+    [ "Param", "class_m_l_l_1_1_binary_class_parms.html#af6d1fc4129b6d3d7924ed4645c92784c", null ],
+    [ "Param", "class_m_l_l_1_1_binary_class_parms.html#aa276fb2a81c8164c026e40432254b0cf", null ],
+    [ "SelectedFeatures", "class_m_l_l_1_1_binary_class_parms.html#a876d3373729f445227432354a8ddc680", null ],
+    [ "SelectedFeatures", "class_m_l_l_1_1_binary_class_parms.html#a452b0334ec4ba52703990ffff578007c", null ],
+    [ "ToTabDelString", "class_m_l_l_1_1_binary_class_parms.html#a595ded088f2391d3c44222b71d92c4e5", null ],
+    [ "Weight", "class_m_l_l_1_1_binary_class_parms.html#a6b39986b750932f83040e686124c88f5", null ],
+    [ "Weight", "class_m_l_l_1_1_binary_class_parms.html#a8e3e465b889468ff028438750028d9f2", null ]
+];

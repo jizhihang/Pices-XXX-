@@ -1,0 +1,28 @@
+var struct_s_v_m233_1_1svm__model =
+[
+    [ "svm_model", "struct_s_v_m233_1_1svm__model.html#a28c05413056e0e8fd52acd017a473152", null ],
+    [ "svm_model", "struct_s_v_m233_1_1svm__model.html#ad18c0976d245a9cb0faeb5f82faaa184", null ],
+    [ "Dispose", "struct_s_v_m233_1_1svm__model.html#a81c946620575c562380a598cd992ecd3", null ],
+    [ "MemoryConsumedEstimated", "struct_s_v_m233_1_1svm__model.html#ad7f6d5662d02b46561b1186114dced04", null ],
+    [ "SupportVectorName", "struct_s_v_m233_1_1svm__model.html#ac3580ab19dc914cbae92dd6dc0a640b9", null ],
+    [ "BSVIndex", "struct_s_v_m233_1_1svm__model.html#a2ef2f6cded6111f982c7027e8fe4031d", null ],
+    [ "dim", "struct_s_v_m233_1_1svm__model.html#abdc708fc432f9ea57cb29f19474d1d8e", null ],
+    [ "exampleNames", "struct_s_v_m233_1_1svm__model.html#a561a64d896f91d682729884cbe400d61", null ],
+    [ "featureWeight", "struct_s_v_m233_1_1svm__model.html#a7a4a525bf1db62d493450f62d0ce114d", null ],
+    [ "kValueTable", "struct_s_v_m233_1_1svm__model.html#a1b0905d87b58134efaa09ced06cc0902", null ],
+    [ "l", "struct_s_v_m233_1_1svm__model.html#a857a8a33df7c60029ab2f9302764e1c8", null ],
+    [ "label", "struct_s_v_m233_1_1svm__model.html#a46cee6a87bc64443391d41b6c8c523c3", null ],
+    [ "margin", "struct_s_v_m233_1_1svm__model.html#a779f1b70e87058b0ac9d14ad598d3b59", null ],
+    [ "nonSVIndex", "struct_s_v_m233_1_1svm__model.html#ad583ceda4bb93178e2b5f312a25ef16f", null ],
+    [ "nr_class", "struct_s_v_m233_1_1svm__model.html#afae0ed3d857cbfdabe5475931df3b9a5", null ],
+    [ "nSV", "struct_s_v_m233_1_1svm__model.html#ae6cd356043914686cd9568e5c298b54c", null ],
+    [ "numNonSV", "struct_s_v_m233_1_1svm__model.html#a2460ae66302b50da1ca61ba613fc3368", null ],
+    [ "param", "struct_s_v_m233_1_1svm__model.html#a3e7c12c295248da6ad6074f2b4142bc8", null ],
+    [ "rho", "struct_s_v_m233_1_1svm__model.html#a25f160e97400392e9de052192f6ef344", null ],
+    [ "SV", "struct_s_v_m233_1_1svm__model.html#aa13fa10d4aa798abb24af3601b49df7a", null ],
+    [ "sv_coef", "struct_s_v_m233_1_1svm__model.html#af824ff89ade8def5eda0c87b46bf4e18", null ],
+    [ "SVIndex", "struct_s_v_m233_1_1svm__model.html#a6c35073db4b2412766e4e0b9913ac251", null ],
+    [ "weight", "struct_s_v_m233_1_1svm__model.html#aecf49ffe6a69e33a248751fdb496c3ec", null ],
+    [ "weOwnXspace", "struct_s_v_m233_1_1svm__model.html#ab491d3ce0e57d8719e0464cf98f84c97", null ],
+    [ "xSpace", "struct_s_v_m233_1_1svm__model.html#a3cf4db1ecc842ac7d3eb673f96849e04", null ]
+];

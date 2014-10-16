@@ -1,0 +1,27 @@
+var class_sipper_hardware_1_1_sipper_buff4_bit =
+[
+    [ "OpRec", "union_sipper_buff4_bit_1_1_op_rec.html", "union_sipper_buff4_bit_1_1_op_rec" ],
+    [ "OpRecEndOfScanLine", "struct_sipper_buff4_bit_1_1_op_rec_end_of_scan_line.html", "struct_sipper_buff4_bit_1_1_op_rec_end_of_scan_line" ],
+    [ "OpRecInstrumentDataWord1", "struct_sipper_buff4_bit_1_1_op_rec_instrument_data_word1.html", "struct_sipper_buff4_bit_1_1_op_rec_instrument_data_word1" ],
+    [ "OpRecInstrumentDataWord2", "struct_sipper_buff4_bit_1_1_op_rec_instrument_data_word2.html", "struct_sipper_buff4_bit_1_1_op_rec_instrument_data_word2" ],
+    [ "OpRecInstrumentDataWord3", "struct_sipper_buff4_bit_1_1_op_rec_instrument_data_word3.html", "struct_sipper_buff4_bit_1_1_op_rec_instrument_data_word3" ],
+    [ "OpRecRaw1Pixel", "struct_sipper_buff4_bit_1_1_op_rec_raw1_pixel.html", "struct_sipper_buff4_bit_1_1_op_rec_raw1_pixel" ],
+    [ "OpRecRaw32Pixels", "struct_sipper_buff4_bit_1_1_op_rec_raw32_pixels.html", "struct_sipper_buff4_bit_1_1_op_rec_raw32_pixels" ],
+    [ "OpRecRaw513Pixels1", "struct_sipper_buff4_bit_1_1_op_rec_raw513_pixels1.html", "struct_sipper_buff4_bit_1_1_op_rec_raw513_pixels1" ],
+    [ "OpRecRaw513Pixels2", "struct_sipper_buff4_bit_1_1_op_rec_raw513_pixels2.html", "struct_sipper_buff4_bit_1_1_op_rec_raw513_pixels2" ],
+    [ "OpRecRun256Len1", "struct_sipper_buff4_bit_1_1_op_rec_run256_len1.html", "struct_sipper_buff4_bit_1_1_op_rec_run256_len1" ],
+    [ "OpRecRun256Len2", "struct_sipper_buff4_bit_1_1_op_rec_run256_len2.html", "struct_sipper_buff4_bit_1_1_op_rec_run256_len2" ],
+    [ "OpRecRunLen", "struct_sipper_buff4_bit_1_1_op_rec_run_len.html", "struct_sipper_buff4_bit_1_1_op_rec_run_len" ],
+    [ "OpRecTextBlock1", "struct_sipper_buff4_bit_1_1_op_rec_text_block1.html", "struct_sipper_buff4_bit_1_1_op_rec_text_block1" ],
+    [ "OpRecTextBlock2", "struct_sipper_buff4_bit_1_1_op_rec_text_block2.html", "struct_sipper_buff4_bit_1_1_op_rec_text_block2" ],
+    [ "RawPixelRec", "struct_sipper_buff4_bit_1_1_raw_pixel_rec.html", "struct_sipper_buff4_bit_1_1_raw_pixel_rec" ],
+    [ "SipperBuff4BitPtr", "class_sipper_hardware_1_1_sipper_buff4_bit.html#a3b041a6eb480eb99b4358151b6308ada", null ],
+    [ "SipperBuff4Bit", "class_sipper_hardware_1_1_sipper_buff4_bit.html#a1cd7d88fae3b89a77dc428b19525caeb", null ],
+    [ "SipperBuff4Bit", "class_sipper_hardware_1_1_sipper_buff4_bit.html#a69f8b64cac9401b28b7feed72d7a3f1d", null ],
+    [ "~SipperBuff4Bit", "class_sipper_hardware_1_1_sipper_buff4_bit.html#a3c7bb6b4c84b8c41db3a67e655ff4240", null ],
+    [ "CompensationTable", "class_sipper_hardware_1_1_sipper_buff4_bit.html#a95b9d8a3fd8703bae18cb7b22caff892", null ],
+    [ "FileFormat", "class_sipper_hardware_1_1_sipper_buff4_bit.html#ab338efc3ecd408486189095e1efe1362", null ],
+    [ "FileFormatGood", "class_sipper_hardware_1_1_sipper_buff4_bit.html#a165441b24fa72c5157bd65caa90cef37", null ],
+    [ "GetNextLine", "class_sipper_hardware_1_1_sipper_buff4_bit.html#a38a856f0a7137687bde92400ffab93f5", null ],
+    [ "PixelsPerScanLine", "class_sipper_hardware_1_1_sipper_buff4_bit.html#a51f588b85f47f23d4a020fc8e2120d85", null ]
+];

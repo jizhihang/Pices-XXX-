@@ -1,0 +1,25 @@
+var annotated =
+[
+    [ "ImageExtractionManager", "namespace_image_extraction_manager.html", "namespace_image_extraction_manager" ],
+    [ "JobManagment", "namespace_job_managment.html", "namespace_job_managment" ],
+    [ "KKU", "namespace_k_k_u.html", "namespace_k_k_u" ],
+    [ "MLL", "namespace_m_l_l.html", "namespace_m_l_l" ],
+    [ "PicesCommander", "namespace_pices_commander.html", "namespace_pices_commander" ],
+    [ "PicesInterface", "namespace_pices_interface.html", "namespace_pices_interface" ],
+    [ "SipperDiskUtilities", "namespace_sipper_disk_utilities.html", "namespace_sipper_disk_utilities" ],
+    [ "SipperFile", "namespace_sipper_file.html", "namespace_sipper_file" ],
+    [ "SipperHardware", "namespace_sipper_hardware.html", "namespace_sipper_hardware" ],
+    [ "SVM233", "namespace_s_v_m233.html", "namespace_s_v_m233" ],
+    [ "SVM289_BFS", "namespace_s_v_m289___b_f_s.html", "namespace_s_v_m289___b_f_s" ],
+    [ "SVM289_MFS", "namespace_s_v_m289___m_f_s.html", "namespace_s_v_m289___m_f_s" ],
+    [ "CAboutDlg", "class_c_about_dlg.html", "class_c_about_dlg" ],
+    [ "CImageExtractionWindowsApp", "class_c_image_extraction_windows_app.html", "class_c_image_extraction_windows_app" ],
+    [ "CImageExtractionWindowsDlg", "class_c_image_extraction_windows_dlg.html", "class_c_image_extraction_windows_dlg" ],
+    [ "CrossValidationApp", "class_cross_validation_app.html", "class_cross_validation_app" ],
+    [ "CrossValidationRun", "class_cross_validation_run.html", "class_cross_validation_run" ],
+    [ "CrossValidationSortByAccuracy", "class_cross_validation_sort_by_accuracy.html", "class_cross_validation_sort_by_accuracy" ],
+    [ "CrossValidationSortBySupportPoints", "class_cross_validation_sort_by_support_points.html", "class_cross_validation_sort_by_support_points" ],
+    [ "CrossValidationSortByTrainTime", "class_cross_validation_sort_by_train_time.html", "class_cross_validation_sort_by_train_time" ],
+    [ "SplitRec", "struct_split_rec.html", "struct_split_rec" ],
+    [ "tagTHREADNAME_INFO", "structtag_t_h_r_e_a_d_n_a_m_e___i_n_f_o.html", "structtag_t_h_r_e_a_d_n_a_m_e___i_n_f_o" ]
+];
