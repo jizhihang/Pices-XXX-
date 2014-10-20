@@ -1,0 +1,360 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{662D4BB9-C075-465C-9CA6-A8231E221B70}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SipperFile</RootNamespace>
+    <AssemblyName>SipperFile</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>
+    </DocumentationFile>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>
+    </DocumentationFile>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'EmbeddedDebug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\EmbededDebug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'EmbeddedRelease|AnyCPU' ">
+    <OutputPath>bin\EmbeddedRelease\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActiveTrainingLibraries.cs" />
+    <Compile Include="Blob.cs" />
+    <Compile Include="BlobDetector.cs" />
+    <Compile Include="BlobList.cs" />
+    <Compile Include="DisplayPicesImages.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DisplayPicesImages.Designer.cs">
+      <DependentUpon>DisplayPicesImages.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogEntryViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogEntryViewer.Designer.cs">
+      <DependentUpon>LogEntryViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PredictionBreakDownDisplayDual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PredictionBreakDownDisplayDual.Designer.cs">
+      <DependentUpon>PredictionBreakDownDisplayDual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CruiseMaintenance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CruiseMaintenance.Designer.cs">
+      <DependentUpon>CruiseMaintenance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeploymentDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeploymentDialog.Designer.cs">
+      <DependentUpon>DeploymentDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CruiseDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CruiseDialog.Designer.cs">
+      <DependentUpon>CruiseDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DepthPlot2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DepthPlot2Parameters.cs" />
+    <Compile Include="FeatureDataDisplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FeatureDataDisplay.Designer.cs">
+      <DependentUpon>FeatureDataDisplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GroupMaintenance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GroupMaintenance.Designer.cs">
+      <DependentUpon>GroupMaintenance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImageEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImageEditor.Designer.cs">
+      <DependentUpon>ImageEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataRowListLoadStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataRowListLoadStatus.Designer.cs">
+      <DependentUpon>DataRowListLoadStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImageViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImageViewer.Designer.cs">
+      <DependentUpon>ImageViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Instrument.cs" />
+    <Compile Include="InstrumentData.cs" />
+    <Compile Include="InstrumentDataFieldSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InstrumentDataFieldSelect.Designer.cs">
+      <DependentUpon>InstrumentDataFieldSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InstrumentDataList.cs" />
+    <Compile Include="InstrumentDataLogger.cs" />
+    <Compile Include="InstrumentDataManager.cs" />
+    <Compile Include="InstrumentDataReport.cs" />
+    <Compile Include="InstrumentDataReportBatteryMeter.cs" />
+    <Compile Include="InstrumentDataReportCTD.cs" />
+    <Compile Include="InstrumentDataReportFlowMeter.cs" />
+    <Compile Include="InstrumentDataReportGPS.cs" />
+    <Compile Include="InstrumentDataReportIllumination.cs" />
+    <Compile Include="InstrumentDataReportInclination.cs" />
+    <Compile Include="InstrumentDataReportText.cs" />
+    <Compile Include="PortAssignment.cs" />
+    <Compile Include="PredictionBreakDownDisplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PredictionBreakDownDisplay.Designer.cs">
+      <DependentUpon>PredictionBreakDownDisplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SaveRawCTDData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaveRawCTDData.Designer.cs">
+      <DependentUpon>SaveRawCTDData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectAInstrumentDataField.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectAInstrumentDataField.Designer.cs">
+      <DependentUpon>SelectAInstrumentDataField.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectAPicesClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectAPicesClass.Designer.cs">
+      <DependentUpon>SelectAPicesClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sipper2DecodeRec.cs" />
+    <Compile Include="Sipper2File.cs" />
+    <Compile Include="Sipper3DecodeRec.cs" />
+    <Compile Include="Sipper3File.cs" />
+    <Compile Include="SipperBuff4Bit.cs" />
+    <Compile Include="SipperClock.cs" />
+    <Compile Include="SipperConfigForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SipperBaseFile.cs" />
+    <Compile Include="SipperConfigRec.cs" />
+    <Compile Include="SipperFile.cs" />
+    <Compile Include="SipperFileBuffered.cs" />
+    <Compile Include="SipperFileDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SipperFileDialog.Designer.cs">
+      <DependentUpon>SipperFileDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SipperFileSimple.cs" />
+    <Compile Include="SipperFrame.cs" />
+    <Compile Include="SipperHeaderRec.cs" />
+    <Compile Include="StationDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StationDialog.Designer.cs">
+      <DependentUpon>StationDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TimePlot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TimePlot.Designer.cs">
+      <DependentUpon>TimePlot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TimePlotParameters.cs" />
+    <Compile Include="TrainingModelStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrainingModelStatus.Designer.cs">
+      <DependentUpon>TrainingModelStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TreeNodeCruise.cs" />
+    <Compile Include="TreeNodeDeployment.cs" />
+    <Compile Include="TreeNodeSipperFile.cs" />
+    <Compile Include="TreeNodeStation.cs" />
+    <Compile Include="VolumeByDepth.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Apps\ChartControls\ChartControls.csproj">
+      <Project>{37F16DB1-CF2E-4B70-893C-CD0C173DE7D2}</Project>
+      <Name>ChartControls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PicesInterface\PicesInterface.vcproj">
+      <Project>{8F609A95-37BC-4E0F-8CD5-4196A86CD4B8}</Project>
+      <Name>PicesInterface</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DisplayPicesImages.resx">
+      <DependentUpon>DisplayPicesImages.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogEntryViewer.resx">
+      <DependentUpon>LogEntryViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PredictionBreakDownDisplayDual.resx">
+      <DependentUpon>PredictionBreakDownDisplayDual.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CruiseMaintenance.resx">
+      <DependentUpon>CruiseMaintenance.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeploymentDialog.resx">
+      <DependentUpon>DeploymentDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CruiseDialog.resx">
+      <DependentUpon>CruiseDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataRowListLoadStatus.resx">
+      <DependentUpon>DataRowListLoadStatus.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DepthPlot2.resx">
+      <DependentUpon>DepthPlot2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FeatureDataDisplay.resx">
+      <DependentUpon>FeatureDataDisplay.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GroupMaintenance.resx">
+      <DependentUpon>GroupMaintenance.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImageEditor.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ImageEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImageViewer.resx">
+      <DependentUpon>ImageViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InstrumentDataFieldSelect.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InstrumentDataFieldSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PredictionBreakDownDisplay.resx">
+      <DependentUpon>PredictionBreakDownDisplay.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaveRawCTDData.resx">
+      <DependentUpon>SaveRawCTDData.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectAInstrumentDataField.resx">
+      <DependentUpon>SelectAInstrumentDataField.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectAPicesClass.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SelectAPicesClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SipperConfigForm.resx">
+      <DependentUpon>SipperConfigForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SipperFileDialog.resx">
+      <DependentUpon>SipperFileDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StationDialog.resx">
+      <DependentUpon>StationDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimePlot.resx">
+      <DependentUpon>TimePlot.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrainingModelStatus.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TrainingModelStatus.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SurfaceArrow.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

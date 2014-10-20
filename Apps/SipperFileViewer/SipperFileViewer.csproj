@@ -151,17 +151,17 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\PicesInterface\PicesInterface.vcproj">
-      <Project>{3D47B9BC-6034-428F-8B4D-96A47C22CE10}</Project>
+    <ProjectReference Include="..\..\PicesLibraries\PicesInterface\PicesInterface.vcproj">
+      <Project>{8F609A95-37BC-4E0F-8CD5-4196A86CD4B8}</Project>
       <Name>PicesInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\PicesLibraries\SipperFile\SipperFile.csproj">
+      <Project>{662D4BB9-C075-465C-9CA6-A8231E221B70}</Project>
+      <Name>SipperFile</Name>
     </ProjectReference>
     <ProjectReference Include="..\ChartControls\ChartControls.csproj">
       <Project>{37F16DB1-CF2E-4B70-893C-CD0C173DE7D2}</Project>
       <Name>ChartControls</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SipperFile\SipperFile.csproj">
-      <Project>{DBE95A22-7D61-433C-9C7C-6E7A57588B11}</Project>
-      <Name>SipperFile</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

@@ -1,0 +1,7 @@
+This is a modified version of the C port of Scott Fahlman's 
+Cascade Correlation Neural Network. It is designed to read in 
+C4.5 format files, and all options can be set via the command
+line. The default functionality remains the same, however many
+other features have been added. See the command line help 
+(usfcascor --help) for full details.
+
