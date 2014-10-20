@@ -3,7 +3,7 @@
 	ProjectType="Visual C++"
 	Version="9.00"
 	Name="PicesInterface"
-	ProjectGUID="{3D47B9BC-6034-428F-8B4D-96A47C22CE10}"
+	ProjectGUID="{8F609A95-37BC-4E0F-8CD5-4196A86CD4B8}"
 	RootNamespace="PicesInterface"
 	Keyword="ManagedCProj"
 	AssemblyReferenceSearchPaths="&quot;..\OutsidePackages\MySQL\lib\opt&quot;"
@@ -43,7 +43,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="&quot;$(SolutionDir)\BaseLibrary&quot;;&quot;$(SolutionDir)\SipperInstruments&quot;;&quot;$(SolutionDir)\PicesLibrary&quot;;&quot;$(SolutionDir)\OutsidePackages\fftw&quot;;&quot;$(SolutionDir)\OutsidePackages\MySQL\include&quot;"
+				AdditionalIncludeDirectories="&quot;$(SolutionDir)\BaseLibrary&quot;;&quot;$(SolutionDir)\PicesLibraries\SipperInstruments&quot;;&quot;$(SolutionDir)\PicesLibraries\PicesLibrary&quot;;&quot;$(SolutionDir)\OutsidePackages\fftw-3.3.2&quot;;&quot;$(SolutionDir)\OutsidePackages\MySQL\include&quot;"
 				PreprocessorDefinitions="WIN32;_DEBUG"
 				RuntimeLibrary="3"
 				UsePrecompiledHeader="2"
@@ -123,7 +123,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="3"
-				AdditionalIncludeDirectories="&quot;$(SolutionDir)\BaseLibrary&quot;;&quot;$(SolutionDir)\SipperInstruments&quot;;&quot;$(SolutionDir)\PicesLibrary&quot;;&quot;$(SolutionDir)\OutsidePackages\fftw&quot;;&quot;$(SolutionDir)\OutsidePackages\MySQL\include&quot;"
+				AdditionalIncludeDirectories="&quot;$(SolutionDir)\BaseLibrary&quot;;&quot;$(SolutionDir)\PicesLibraries\SipperInstruments&quot;;&quot;$(SolutionDir)\PicesLibraries\PicesLibrary&quot;;&quot;$(SolutionDir)\OutsidePackages\fftw-3.3.2&quot;;&quot;$(SolutionDir)\OutsidePackages\MySQL\include&quot;"
 				PreprocessorDefinitions="WIN32;NDEBUG"
 				RuntimeLibrary="2"
 				UsePrecompiledHeader="0"
@@ -199,7 +199,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="&quot;$(SolutionDir)\BaseLibrary&quot;;&quot;$(SolutionDir)\SipperInstruments&quot;;&quot;$(SolutionDir)\PicesLibrary&quot;;&quot;$(SolutionDir)\OutsidePackages\MySqlWin32\include&quot;"
+				AdditionalIncludeDirectories="&quot;$(SolutionDir)\BaseLibrary&quot;;&quot;$(SolutionDir)\PicesLibraries\SipperInstruments&quot;;&quot;$(SolutionDir)\PicesLibraries\PicesLibrary&quot;;&quot;$(SolutionDir)\OutsidePackages\fftw-3.3.2&quot;;&quot;$(SolutionDir)\OutsidePackages\MySQL\include&quot;"
 				PreprocessorDefinitions="WIN32;_DEBUG"
 				RuntimeLibrary="3"
 				UsePrecompiledHeader="2"
@@ -279,7 +279,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="3"
-				AdditionalIncludeDirectories="&quot;$(SolutionDir)\BaseLibrary&quot;;&quot;$(SolutionDir)\SipperInstruments&quot;;&quot;$(SolutionDir)\PicesLibrary&quot;;&quot;$(SolutionDir)\OutsidePackages\fftw&quot;;&quot;$(SolutionDir)\OutsidePackages\MySqlWin32\include&quot;"
+				AdditionalIncludeDirectories="&quot;$(SolutionDir)\BaseLibrary&quot;;&quot;$(SolutionDir)\PicesLibraries\SipperInstruments&quot;;&quot;$(SolutionDir)\PicesLibraries\PicesLibrary&quot;;&quot;$(SolutionDir)\OutsidePackages\fftw-3.3.2&quot;;&quot;$(SolutionDir)\OutsidePackages\MySQL\include&quot;"
 				PreprocessorDefinitions="WIN32;NDEBUG"
 				RuntimeLibrary="2"
 				UsePrecompiledHeader="0"
@@ -359,6 +359,14 @@
 			RelativePath="System.Windows.Forms.dll"
 			AssemblyName="System.Windows.Forms, Version=2.0.0.0, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL"
 			MinFrameworkVersion="131072"
+		/>
+		<ProjectReference
+			ReferencedProjectIdentifier="{FA9C865E-0227-4EBC-A291-ED0F2453AFB3}"
+			RelativePathToProject=".\PicesLibraries\PicesLibrary\PicesLibrary.vcproj"
+		/>
+		<ProjectReference
+			ReferencedProjectIdentifier="{B1867F2D-9E97-4E33-A56B-297CAF616589}"
+			RelativePathToProject=".\PicesLibraries\SipperInstruments\SipperInstruments.vcproj"
 		/>
 	</References>
 	<Files>

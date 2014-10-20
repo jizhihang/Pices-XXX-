@@ -3,7 +3,7 @@
 	ProjectType="Visual C++"
 	Version="9.00"
 	Name="SipperInstruments"
-	ProjectGUID="{7054C8A7-2EF1-465D-A6CC-B83A19EBE707}"
+	ProjectGUID="{B1867F2D-9E97-4E33-A56B-297CAF616589}"
 	RootNamespace="SipperInstruments"
 	Keyword="Win32Proj"
 	TargetFrameworkVersion="131072"

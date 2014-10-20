@@ -106,10 +106,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\PicesInterface\PicesInterface.vcproj">
-      <Project>{3D47B9BC-6034-428F-8B4D-96A47C22CE10}</Project>
-      <Name>PicesInterface</Name>
-    </ProjectReference>
     <ProjectReference Include="..\SipperDiskUtilities\SipperDiskUtilities.csproj">
       <Project>{24D8DD76-795E-4975-8297-BF1F5FBE5649}</Project>
       <Name>SipperDiskUtilities</Name>
@@ -117,10 +113,6 @@
     <ProjectReference Include="..\SipperFileViewer\SipperFileViewer.csproj">
       <Project>{B27629BC-30E1-4175-B5E2-54C5912E5C27}</Project>
       <Name>SipperFileViewer</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SipperFile\SipperFile.csproj">
-      <Project>{DBE95A22-7D61-433C-9C7C-6E7A57588B11}</Project>
-      <Name>SipperFile</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

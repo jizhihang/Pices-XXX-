@@ -72,12 +72,6 @@
     <Compile Include="SipperPartitionSector.cs" />
     <Compile Include="SipperTimeStamp.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\PicesInterface\PicesInterface.vcproj">
-      <Project>{3D47B9BC-6034-428F-8B4D-96A47C22CE10}</Project>
-      <Name>PicesInterface</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
