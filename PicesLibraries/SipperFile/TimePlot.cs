@@ -7,8 +7,10 @@ using System.IO;
 using System.Text;
 using System.Windows.Forms;
 using ChartControls;
-using PicesInterface;
 using SipperFile;
+
+using PicesInterface;
+//using SipperFile;
 
 
 namespace SipperFile

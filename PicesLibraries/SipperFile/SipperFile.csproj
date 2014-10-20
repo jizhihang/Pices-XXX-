@@ -246,6 +246,10 @@
       <Project>{37F16DB1-CF2E-4B70-893C-CD0C173DE7D2}</Project>
       <Name>ChartControls</Name>
     </ProjectReference>
+    <ProjectReference Include="..\PicesInterface\PicesInterface.vcproj">
+      <Project>{8F609A95-37BC-4E0F-8CD5-4196A86CD4B8}</Project>
+      <Name>PicesInterface</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="DisplayPicesImages.resx">

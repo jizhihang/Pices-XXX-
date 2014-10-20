@@ -41,7 +41,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="&quot;$(SolutionDir)\BaseLibrary&quot;;&quot;$(SolutionDir)\SipperInstruments&quot;;&quot;$(SolutionDir)\PicesLibrary&quot;"
+				AdditionalIncludeDirectories="&quot;$(SolutionDir)\BaseLibrary&quot;;&quot;$(SolutionDir)\PicesLibraries\SipperInstruments&quot;;&quot;$(SolutionDir)\PicesLibraries\PicesLibrary&quot;"
 				PreprocessorDefinitions="WIN32;_DEBUG;_LIB"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -105,7 +105,7 @@
 				Name="VCCLCompilerTool"
 				Optimization="2"
 				EnableIntrinsicFunctions="true"
-				AdditionalIncludeDirectories="&quot;$(SolutionDir)\BaseLibrary&quot;;&quot;$(SolutionDir)\SipperInstruments&quot;;&quot;$(SolutionDir)\PicesLibrary&quot;"
+				AdditionalIncludeDirectories="&quot;$(SolutionDir)\BaseLibrary&quot;;&quot;$(SolutionDir)\PicesLibraries\SipperInstruments&quot;;&quot;$(SolutionDir)\PicesLibraries\PicesLibrary&quot;"
 				PreprocessorDefinitions="WIN32;NDEBUG;_LIB"
 				RuntimeLibrary="2"
 				EnableFunctionLevelLinking="true"
@@ -166,7 +166,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="&quot;$(SolutionDir)\BaseLibrary&quot;;&quot;$(SolutionDir)\SipperInstruments&quot;;&quot;$(SolutionDir)\PicesLibrary&quot;"
+				AdditionalIncludeDirectories="&quot;$(SolutionDir)\BaseLibrary&quot;;&quot;$(SolutionDir)\PicesLibraries\SipperInstruments&quot;;&quot;$(SolutionDir)\PicesLibraries\PicesLibrary&quot;"
 				PreprocessorDefinitions="WIN32;_DEBUG;_LIB"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -230,7 +230,7 @@
 				Name="VCCLCompilerTool"
 				Optimization="2"
 				EnableIntrinsicFunctions="true"
-				AdditionalIncludeDirectories="&quot;$(SolutionDir)\BaseLibrary&quot;;&quot;$(SolutionDir)\SipperInstruments&quot;;&quot;$(SolutionDir)\PicesLibrary&quot;"
+				AdditionalIncludeDirectories="&quot;$(SolutionDir)\BaseLibrary&quot;;&quot;$(SolutionDir)\PicesLibraries\SipperInstruments&quot;;&quot;$(SolutionDir)\PicesLibraries\PicesLibrary&quot;"
 				PreprocessorDefinitions="WIN32;NDEBUG;_LIB"
 				RuntimeLibrary="2"
 				EnableFunctionLevelLinking="true"
@@ -268,6 +268,18 @@
 		</Configuration>
 	</Configurations>
 	<References>
+		<ProjectReference
+			ReferencedProjectIdentifier="{5A4B9B15-9745-4ABA-B1A8-FFBC85D1D5DF}"
+			RelativePathToProject=".\BaseLibrary\BaseLibrary.vcproj"
+		/>
+		<ProjectReference
+			ReferencedProjectIdentifier="{FA9C865E-0227-4EBC-A291-ED0F2453AFB3}"
+			RelativePathToProject=".\PicesLibraries\PicesLibrary\PicesLibrary.vcproj"
+		/>
+		<ProjectReference
+			ReferencedProjectIdentifier="{B1867F2D-9E97-4E33-A56B-297CAF616589}"
+			RelativePathToProject=".\PicesLibraries\SipperInstruments\SipperInstruments.vcproj"
+		/>
 	</References>
 	<Files>
 		<Filter

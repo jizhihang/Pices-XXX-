@@ -8,11 +8,11 @@ using namespace System::Collections::Generic;
 using namespace System::Diagnostics;
 
 
-#include  "VolumeSampledStat.h"
+#include "VolumeSampledStat.h"
 using namespace  SipperHardware;
 
-#include  "PicesKKStr.h"
-#include  "PicesRunLog.h"
+#include "PicesKKStr.h"
+#include "PicesRunLog.h"
 
 
 namespace PicesInterface 
