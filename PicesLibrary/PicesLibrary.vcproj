@@ -40,7 +40,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="&quot;$(SolutionDir)\BaseLibrary&quot;;&quot;$(SolutionDir)\SipperInstruments&quot;;&quot;$(SolutionDir)\OutsidePackages\MySqlWin32\include&quot;;&quot;$(SolutionDir)\OutsidePackages\fftw&quot;;&quot;$(SolutionDir)\OutsidePackages\zlib123&quot;"
+				AdditionalIncludeDirectories="&quot;$(SolutionDir)\BaseLibrary&quot;;&quot;$(SolutionDir)\SipperInstruments&quot;;&quot;$(SolutionDir)\OutsidePackages\MySqlWin32\include&quot;;&quot;$(SolutionDir)\OutsidePackages\fftw-3.3.2&quot;;&quot;$(SolutionDir)\OutsidePackages\zlib123&quot;"
 				PreprocessorDefinitions="WIN32;_DEBUG;EMBEDDED_MYSQL"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
